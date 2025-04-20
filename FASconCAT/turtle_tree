@@ -1,0 +1,385 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=281;
+	taxlabels
+	Acanthochelys_pallidipectoris
+	Acanthochelys_spixii
+	Actinemys_marmorata
+	Actinemys_pallida
+	Aldabrachelys_gigantea
+	Amyda_cartilaginea
+	Apalone_ferox
+	Apalone_mutica
+	Apalone_spinifera
+	Astrochelys_radiata
+	Astrochelys_yniphora
+	Batagur_baska
+	Batagur_borneoensis
+	Batagur_dhongoka
+	Batagur_kachuga
+	Batagur_trivittata
+	Caretta_caretta
+	Carettochelys_insculpta
+	Centrochelys_sulcata
+	Chelodina_burrungandjii
+	Chelodina_canni
+	Chelodina_colliei
+	Chelodina_expansa
+	Chelodina_gunaleni
+	Chelodina_longicollis
+	Chelodina_mccordi
+	Chelodina_novaeguineae
+	Chelodina_oblonga
+	Chelodina_parkeri
+	Chelodina_pritchardi
+	Chelodina_reimanni
+	Chelodina_steindachneri
+	Chelonia_mydas
+	Chelonoidis_abingdonii
+	Chelonoidis_carbonarius
+	Chelonoidis_chathamensis
+	Chelonoidis_chilensis
+	Chelonoidis_denticulatus
+	Chelonoidis_ephippium
+	Chelonoidis_hoodensis
+	Chelonoidis_porteri
+	Chelus_fimbriata
+	Chelus_fimbriatus
+	Chelydra_acutirostris
+	Chelydra_rossignonii
+	Chelydra_serpentina
+	Chersina_angulata
+	Chersobius_boulengeri
+	Chersobius_signatus
+	Chitra_chitra
+	Chitra_indica
+	Chitra_vandijki
+	Chrysemys_dorsalis
+	Chrysemys_picta
+	Claudius_angustatus
+	Clemmys_guttata
+	Cryptochelys_acuta
+	Cryptochelys_creaseri
+	Cryptochelys_dunni
+	Cryptochelys_herrerai
+	Cryptochelys_leucostomum
+	Cyclanorbis_senegalensis
+	Cyclemys_atripons
+	Cyclemys_dentata
+	Cyclemys_fusca
+	Cyclemys_oldhami
+	Cyclemys_oldhamii
+	Cycloderma_aubryi
+	Cycloderma_frenatum
+	Deirochelys_reticularia
+	Dermatemys_mawii
+	Dermochelys_coriacea
+	Dogania_subplana
+	Elseya_albagula
+	Elseya_branderhorsti
+	Elseya_dentata
+	Elseya_irwini
+	Elseya_lavarackorum
+	Elseya_novaeguineae
+	Elusor_macrurus
+	Emydoidea_blandingii
+	Emydura_macquarii
+	Emydura_subglobosa
+	Emydura_tanybaraga
+	Emydura_victoriae
+	Emys_blandingii
+	Emys_marmorata
+	Emys_orbicularis
+	Emys_trinacris
+	Eretmochelys_imbricata
+	Erymnochelys_madagascariensis
+	Geochelone_elegans
+	Geochelone_platynota
+	Geoclemys_hamiltonii
+	Geoemyda_japonica
+	Geoemyda_spengleri
+	Glyptemys_insculpta
+	Glyptemys_muhlenbergii
+	Gopherus_agassizii
+	Gopherus_berlandieri
+	Gopherus_flavomarginatus
+	Gopherus_morafkai
+	Gopherus_polyphemus
+	Graptemys_barbouri
+	Graptemys_caglei
+	Graptemys_ernsti
+	Graptemys_flavimaculata
+	Graptemys_geographica
+	Graptemys_gibbonsi
+	Graptemys_nigrinoda
+	Graptemys_oculifera
+	Graptemys_ouachitensis
+	Graptemys_pearlensis
+	Graptemys_pseudogeographica
+	Graptemys_pulchra
+	Graptemys_sabinensis
+	Graptemys_versa
+	Hardella_thurjii
+	Heosemys_annandalii
+	Heosemys_depressa
+	Heosemys_grandis
+	Heosemys_spinosa
+	Homopus_areolatus
+	Hydromedusa_tectifera
+	Indotestudo_elongata
+	Indotestudo_forstenii
+	Indotestudo_travancorica
+	Kinixys_belliana
+	Kinixys_erosa
+	Kinixys_homeana
+	Kinixys_spekii
+	Kinosternon_acutum
+	Kinosternon_arizonense
+	Kinosternon_baurii
+	Kinosternon_chimalhuaca
+	Kinosternon_creaseri
+	Kinosternon_dunni
+	Kinosternon_durangoense
+	Kinosternon_flavescens
+	Kinosternon_herrerai
+	Kinosternon_hirtipes
+	Kinosternon_integrum
+	Kinosternon_leucostomum
+	Kinosternon_oaxacae
+	Kinosternon_scorpioides
+	Kinosternon_sonoriense
+	Kinosternon_stejnegeri
+	Kinosternon_subrubrum
+	Lepidochelys_olivacea
+	Leucocephalon_yuwonoi
+	Lissemys_punctata
+	Lissemys_scutata
+	Macrochelys_temminckii
+	Malaclemys_terrapin
+	Malacochersus_tornieri
+	Malayemys_subtrijuga
+	Manouria_emys
+	Manouria_impressa
+	Mauremys_annamensis
+	Mauremys_caspica
+	'Mauremys_cf.'
+	Mauremys_japonica
+	Mauremys_leprosa
+	Mauremys_mutica
+	Mauremys_nigricans
+	Mauremys_reevesii
+	Mauremys_rivulata
+	Mauremys_sinensis
+	Melanochelys_trijuga
+	Mesoclemmys_gibba
+	Mesoclemmys_hogei
+	Mesoclemmys_nasuta
+	Mesoclemmys_zuliae
+	Morenia_ocellata
+	Morenia_petersi
+	Myuchelys_bellii
+	Myuchelys_georgesi
+	Myuchelys_latisternum
+	Myuchelys_purvisi
+	Nilssonia_formosa
+	Nilssonia_gangetica
+	Nilssonia_hurum
+	Notochelys_platynota
+	Orlitia_borneensis
+	Palea_steindachneri
+	Pangshura_smithii
+	Pangshura_sylhetensis
+	Pangshura_tecta
+	Pangshura_tentoria
+	Pelochelys_bibroni
+	Pelochelys_cantorii
+	Pelodiscus_sinensis
+	Pelomedusa_subrufa
+	Peltocephalus_dumerilianus
+	Pelusios_adansonii
+	Pelusios_bechuanicus
+	Pelusios_broadleyi
+	Pelusios_carinatus
+	Pelusios_castaneus
+	Pelusios_castanoides
+	Pelusios_chapini
+	Pelusios_gabonensis
+	Pelusios_niger
+	Pelusios_rhodesianus
+	Pelusios_sinuatus
+	Pelusios_subniger
+	Phrynops_geoffroanus
+	Phrynops_hilarii
+	Phrynops_tuberosus
+	Phrynops_williamsi
+	Platemys_platycephala
+	Platysternon_megacephalum
+	Podocnemis_erythrocephala
+	Podocnemis_expansa
+	Podocnemis_sextuberculata
+	Podocnemis_unifilis
+	Podocnemis_vogli
+	Psammobates_oculifer
+	Psammobates_oculiferus
+	Psammobates_pardalis
+	Psammobates_tentorius
+	Pseudemys_alabamensis
+	Pseudemys_concinna
+	Pseudemys_floridana
+	Pseudemys_gorzugi
+	Pseudemys_nelsoni
+	Pseudemys_peninsularis
+	Pseudemys_rubriventris
+	Pseudemys_texana
+	Pyxis_arachnoides
+	Pyxis_planicauda
+	Ranacephala_hogei
+	Rheodytes_leukops
+	Rhinoclemmys_annulata
+	Rhinoclemmys_areolata
+	Rhinoclemmys_diademata
+	Rhinoclemmys_funerea
+	Rhinoclemmys_melanosterna
+	Rhinoclemmys_pulcherrima
+	Rhinoclemmys_punctularia
+	Rhinoclemmys_rubida
+	Sacalia_bealei
+	Sacalia_quadriocellata
+	Siebenrockiella_crassicollis
+	Siebenrockiella_leytensis
+	Staurotypus_salvinii
+	Staurotypus_triporcatus
+	Sternotherus_carinatus
+	Sternotherus_depressus
+	Sternotherus_minor
+	Sternotherus_odoratus
+	Stigmochelys_pardalis
+	Terrapene_carolina
+	Terrapene_coahuila
+	Terrapene_nelsoni
+	Terrapene_ornata
+	Terrapene_triunguis
+	Testudo_graeca
+	Testudo_hermanni
+	Testudo_horsfieldii
+	Testudo_kleinmanni
+	Testudo_marginata
+	Trachemys_adiutrix
+	Trachemys_callirostris
+	Trachemys_decorata
+	Trachemys_decussata
+	Trachemys_dorbigni
+	Trachemys_emolli
+	Trachemys_gaigeae
+	Trachemys_grayi
+	Trachemys_nebulosa
+	Trachemys_scripta
+	Trachemys_stejnegeri
+	Trachemys_taylori
+	Trachemys_terrapen
+	Trachemys_venusta
+	Trionyx_triunguis
+	Vijayachelys_silvatica
+	'sp._Sth'
+	'sp._fusca'
+	'sp._voucher'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Acanthochelys_pallidipectoris:0.000818009,Acanthochelys_spixii:0.00233093,((((((((((((((Actinemys_marmorata:0.00288926,Actinemys_pallida:0.00166607)[&label="99.3/98"]:0.00154908,(Terrapene_carolina:0.00151799,Terrapene_nelsoni:0.00386241)[&label="100/100"]:0.00158864)[&label="99.8/73"]:0.00113257,(Chrysemys_dorsalis:0.00317365,((((((Chrysemys_picta:0.00362217,(((Clemmys_guttata:0.00582241,(Glyptemys_insculpta:0.00305217,Glyptemys_muhlenbergii:0.00281268)[&label="99.8/100"]:0.00109186)[&label="27.1/78"]:0.000306027,(((Emydoidea_blandingii:0.00143806,(Emys_orbicularis:0.000250862,Emys_trinacris:0.00104692)[&label="100/100"]:0.00227714)[&label="99.8/100"]:0.000880245,((Terrapene_coahuila:0.00163952,Terrapene_triunguis:0.00158824)[&label="83.6/98"]:0.000600962,Terrapene_ornata:0.00221747)[&label="100/100"]:0.00144201)[&label="21.3/62"]:0.000256995,Emys_marmorata:0.00229396)[&label="85/60"]:0.000136499)[&label="100/90"]:0.00698040,Deirochelys_reticularia:0.00667196)[&label="80.6/71"]:0.000965348)[&label="99.6/72"]:0.00107252,Malaclemys_terrapin:0.00371804)[&label="84.4/63"]:0.000557220,(Graptemys_barbouri:0.00312057,Graptemys_geographica:0.00193925)[&label="100/100"]:0.00168504)[&label="58.4/58"]:2.07986e-05,Trachemys_scripta:0.00261131)[&label="100/98"]:0.0318757,((Trachemys_adiutrix:0.000876912,Trachemys_gaigeae:0.00141445)[&label="92.9/89"]:0.000467683,((((Trachemys_callirostris:0.00171783,Trachemys_venusta:0.000668067)[&label="66.8/99"]:0.000315554,Trachemys_dorbigni:0.00149893)[&label="97.8/99"]:0.000713797,((Trachemys_emolli:0.000121775,Trachemys_grayi:0.000596797)[&label="79.4/99"]:0.000528266,Trachemys_nebulosa[&!color=#9999ff]:0.00304826)[&label="33.9/72"]:0.000295035)[&label="91.2/97"]:0.000725437,Trachemys_taylori:0.000764359)[&label="87.5/95"]:0.000549876)[&label="99.9/100"]:0.00115034)[&label="69.6/67"]:6.98100e-05,(((((((Graptemys_caglei:0.00157301,Graptemys_versa:0.000673565)[&label="81.2/99"]:0.000258062,(Graptemys_flavimaculata:0.000679126,Graptemys_oculifera:0.000634050)[&label="98.5/100"]:0.000764286)[&label="26.3/75"]:0.000359294,((Graptemys_ernsti:0.000685410,(Graptemys_gibbonsi:0.000403305,Graptemys_pearlensis:0.000724774)[&label="85.6/100"]:0.000173066)[&label="98/100"]:0.000370317,Graptemys_pulchra:0.000321520)[&label="99.3/87"]:0.000607249)[&label="85.9/81"]:0.000157991,Graptemys_pseudogeographica:0.000540504)[&label="86.9/80"]:0.000159813,(Graptemys_nigrinoda:0.00112976,Graptemys_ouachitensis:0.000637536)[&label="89.6/87"]:0.000206510)[&label="100/100"]:0.00188761,Graptemys_sabinensis:0.00105865)[&label="100/100"]:0.00134204,((((((Pseudemys_alabamensis:0.000927173,Pseudemys_concinna:0.00125525)[&label="0/88"]:2.02340e-06,(Pseudemys_nelsoni:0.000699072,Pseudemys_peninsularis:0.00218613)[&label="38.7/76"]:0.000175455)[&label="99.7/81"]:0.000850995,(Pseudemys_gorzugi:0.000406886,Pseudemys_texana:0.000918130)[&label="100/100"]:0.00120171)[&label="88.1/55"]:0.000331475,Pseudemys_floridana:0.00137584)[&label="0/43"]:2.22430e-06,Pseudemys_rubriventris:0.000963808)[&label="100/100"]:0.00185764,(((Trachemys_decorata:0.000412724,Trachemys_stejnegeri:0.000532201)[&label="100/100"]:0.000881258,Trachemys_terrapen:0.00112761)[&label="89.7/100"]:0.000359292,Trachemys_decussata:0.000378860)[&label="100/100"]:0.00268578)[&label="97.4/96"]:0.000588316)[&label="72.6/82"]:0.000259493)[&label="100/70"]:0.00182755)[&label="100/72"]:0.00581511)[&label="19.6/85"]:0.000835909,Emys_blandingii:2.26810e-06)[&label="91.3/100"]:0.00512442,Platysternon_megacephalum:0.0110669)[&label="99/100"]:0.00121923,((((((((Aldabrachelys_gigantea:0.000277912,'sp._voucher':0.00862612)[&label="100/100"]:0.00320996,((Astrochelys_radiata:0.00241652,Astrochelys_yniphora:0.00421990)[&label="100/100"]:0.00158880,(Pyxis_arachnoides:0.00272586,Pyxis_planicauda:0.00420763)[&label="100/100"]:0.00590094)[&label="90.9/100"]:0.000214767)[&label="100/100"]:0.00174694,(((((Chelonoidis_abingdonii:0.000308953,(Chelonoidis_ephippium:2.55340e-06,Chelonoidis_hoodensis:0.000206220)[&label="86.1/80"]:0.000100380)[&label="88.1/80"]:0.000102406,Chelonoidis_porteri:0.000205363)[&label="0/69"]:2.16390e-06,Chelonoidis_chathamensis:1.00330e-06)[&label="100/100"]:0.00367226,Chelonoidis_chilensis:0.00450808)[&label="98.7/100"]:0.000628983,(Chelonoidis_carbonarius:0.00352402,Chelonoidis_denticulatus:0.00296595)[&label="98.8/100"]:0.000525088)[&label="100/100"]:0.00143248)[&label="99.6/100"]:0.000776595,(Centrochelys_sulcata:0.00481755,(Geochelone_elegans:0.00153636,Geochelone_platynota:0.000964236)[&label="100/100"]:0.00380757)[&label="100/100"]:0.00233821)[&label="85.8/100"]:0.000243690,((((Chersina_angulata:0.00991623,(Chersobius_boulengeri:0.00178340,Chersobius_signatus:0.00202695)[&label="100/100"]:0.00228696)[&label="99.5/100"]:0.00112847,Homopus_areolatus:0.00869568)[&label="98/100"]:0.000632659,((Psammobates_oculifer:0.00359399,(Psammobates_oculiferus:0.00439262,Psammobates_tentorius:0.00447605)[&label="73.2/97"]:0.00112931)[&label="100/100"]:0.00379420,(Psammobates_pardalis:0.000226177,Stigmochelys_pardalis:0.000685882)[&label="100/100"]:0.00679679)[&label="94.6/99"]:0.000372322)[&label="98.9/100"]:0.000492736,((Kinixys_belliana:0.000522856,Kinixys_spekii:0.000250182)[&label="100/100"]:0.00339298,(Kinixys_erosa:0.000427198,Kinixys_homeana:0.000529480)[&label="100/100"]:0.00269851)[&label="100/100"]:0.00661041)[&label="84.8/99"]:0.000125159)[&label="100/100"]:0.00475939,((((Indotestudo_elongata:0.00183769,Indotestudo_travancorica:0.00146788)[&label="100/100"]:0.00221806,Indotestudo_forstenii:0.00388145)[&label="100/100"]:0.00249123,Malacochersus_tornieri:0.00885903)[&label="100/100"]:0.00226274,((Testudo_graeca:0.00377220,(Testudo_kleinmanni:0.00850089,Testudo_marginata:0.00318914)[&label="99.6/100"]:0.00112341)[&label="100/100"]:0.00381451,(Testudo_hermanni:0.00436844,Testudo_horsfieldii:0.00446817)[&label="84.7/100"]:0.000308544)[&label="100/100"]:0.00353986)[&label="100/100"]:0.00299643)[&label="100/100"]:0.00360536,((((Gopherus_agassizii:0.00152571,Gopherus_morafkai:0.00171762)[&label="99.8/100"]:0.00101004,Gopherus_berlandieri:0.00218865)[&label="100/100"]:0.00313559,(Gopherus_flavomarginatus:0.00112564,Gopherus_polyphemus:0.00363265)[&label="100/100"]:0.00237344)[&label="100/100"]:0.00573487,(Manouria_emys:0.0337511,Manouria_impressa:0.00769883)[&label="100/100"]:0.00368660)[&label="84.9/99"]:0.000598003)[&label="100/100"]:0.00572231,((((((((((Batagur_baska:0.00108705,Batagur_kachuga:0.00233388)[&label="94.6/100"]:0.000626205,Batagur_dhongoka:0.00244374)[&label="90.8/100"]:0.000426375,(Batagur_borneoensis:0.00202809,Batagur_trivittata:0.00178986)[&label="99.8/100"]:0.000779882)[&label="79.6/100"]:0.000121706,Hardella_thurjii:0.00403444)[&label="87.3/99"]:0.000437915,(((Pangshura_smithii:0.00116282,Pangshura_tentoria:0.00147502)[&label="98.9/100"]:0.00131346,Pangshura_tecta:0.00164020)[&label="97/100"]:0.000807367,Pangshura_sylhetensis:0.00221846)[&label="100/100"]:0.00224472)[&label="100/100"]:0.00335779,(Morenia_ocellata:0.00513115,Morenia_petersi:0.00288720)[&label="100/100"]:0.00550624)[&label="99.5/100"]:0.00128866,Geoclemys_hamiltonii:0.00848717)[&label="100/100"]:0.00278328,(Malayemys_subtrijuga:0.0118313,Orlitia_borneensis:0.00389224)[&label="100/100"]:0.00437670)[&label="100/100"]:0.00498711,(Siebenrockiella_crassicollis:0.00811572,Siebenrockiella_leytensis:0.00663324)[&label="100/100"]:0.00617854)[&label="100/100"]:0.00197636,(((((((Cyclemys_atripons:0.00175477,((Cyclemys_dentata:0.00170907,((Cyclemys_fusca:0.00210213,Cyclemys_oldhamii:0.00179181)[&label="73.2/97"]:0.000558643,Cyclemys_oldhami:0.000662867)[&label="97.4/100"]:0.000858722)[&label="0/87"]:1.13480e-06,'sp._fusca':1.00330e-06)[&label="22.6/87"]:0.000592992)[&label="100/100"]:0.00335774,(((Heosemys_annandalii:0.00281875,Heosemys_grandis:0.00242538)[&label="99.3/100"]:0.000951730,Heosemys_depressa:0.00404064)[&label="100/100"]:0.00263072,Heosemys_spinosa:0.00735118)[&label="99.8/100"]:0.00140920)[&label="92.9/96"]:0.000549204,(Sacalia_bealei:0.000870325,Sacalia_quadriocellata:0.00219114)[&label="100/100"]:0.00541151)[&label="0.6/68"]:0.000257935,(Leucocephalon_yuwonoi:0.00818182,Notochelys_platynota:0.00911981)[&label="99.9/95"]:0.00115463)[&label="92.7/94"]:0.000424657,(Melanochelys_trijuga:0.00631658,Vijayachelys_silvatica:0.00740123)[&label="100/100"]:0.00258348)[&label="100/99"]:0.00172529,((Geoemyda_japonica:0.00241961,Geoemyda_spengleri:0.00349398)[&label="100/100"]:0.00313125,((Mauremys_annamensis:0.00259759,('Mauremys_cf.':2.64790e-06,Mauremys_mutica:0.0332769)[&label="91.8/99"]:0.0111841)[&label="100/99"]:0.00282257,((((Mauremys_caspica:0.00175777,Mauremys_rivulata:0.00194244)[&label="100/100"]:0.00201745,Mauremys_leprosa:0.00267574)[&label="100/100"]:0.00179282,Mauremys_japonica:0.00206586)[&label="100/100"]:0.000865552,((Mauremys_nigricans:0.00136268,Mauremys_reevesii:0.00138207)[&label="100/100"]:0.00207065,Mauremys_sinensis:0.00397717)[&label="70.9/97"]:0.000344789)[&label="100/100"]:0.00377604)[&label="99.9/99"]:0.00130036)[&label="83.6/99"]:0.000249945)[&label="68.6/99"]:0.000234853,(((Rhinoclemmys_annulata:0.00115963,Rhinoclemmys_pulcherrima:0.00276033)[&label="98/100"]:0.000631031,Rhinoclemmys_rubida:0.00454098)[&label="53.9/99"]:0.000301356,(Rhinoclemmys_areolata:0.00262420,((Rhinoclemmys_diademata:0.000552197,Rhinoclemmys_punctularia:0.000749051)[&label="99.4/100"]:0.000829348,(Rhinoclemmys_funerea:0.00120029,Rhinoclemmys_melanosterna:0.000700444)[&label="0/67"]:2.58510e-06)[&label="99.8/100"]:0.000904742)[&label="99.8/100"]:0.000826643)[&label="100/100"]:0.0140620)[&label="99.6/100"]:0.000797767)[&label="100/100"]:0.00219122)[&label="100/100"]:0.0108442)[&label="100/100"]:0.00524983,(((((Caretta_caretta:0.00204065,Lepidochelys_olivacea:0.00365792)[&label="94/100"]:0.000529927,Eretmochelys_imbricata:0.00393610)[&label="100/100"]:0.00424619,Chelonia_mydas:0.00575094)[&label="100/100"]:0.00679485,Dermochelys_coriacea:0.0176410)[&label="100/100"]:0.0121617,((((Chelydra_acutirostris:0.00104261,Chelydra_rossignonii:0.000994540)[&label="97.5/100"]:0.000450234,Chelydra_serpentina:0.00132065)[&label="100/100"]:0.00336349,Macrochelys_temminckii:0.00520185)[&label="100/100"]:0.0150698,(((Claudius_angustatus:0.00574220,(Staurotypus_salvinii:0.00135906,Staurotypus_triporcatus:0.000817426)[&label="100/100"]:0.00349533)[&label="100/100"]:0.0134058,((((((Cryptochelys_acuta:2.41620e-06,(Cryptochelys_creaseri:0.000488028,Kinosternon_creaseri:0.000193742)[&label="96.7/100"]:0.000343047)[&label="100/100"]:0.00231099,(Cryptochelys_herrerai:0.00143894,Kinosternon_herrerai:2.84340e-06)[&label="96.6/100"]:0.00146024)[&label="39.2/84"]:0.000548306,((Kinosternon_acutum:0.000261248,Kinosternon_scorpioides:2.36580e-06)[&label="69.2/32"]:0.00142927,((Kinosternon_chimalhuaca:0.00167354,Kinosternon_oaxacae:0.000822362)[&label="83.9/74"]:0.000109422,((Kinosternon_hirtipes:0.00133582,Kinosternon_sonoriense:0.00134496)[&label="70.4/93"]:0.000222203,Kinosternon_integrum:0.00189731)[&label="0/57"]:2.69610e-06)[&label="86.7/87"]:0.000108894)[&label="99.9/48"]:0.00129932)[&label="98.8/60"]:0.000784359,((Cryptochelys_dunni:2.17040e-06,Kinosternon_dunni:2.56730e-06)[&label="100/100"]:0.00289397,(Cryptochelys_leucostomum:2.05380e-06,Kinosternon_leucostomum:2.85690e-06)[&label="100/100"]:0.00189126)[&label="100/100"]:0.00124149)[&label="100/71"]:0.00207056,((((Kinosternon_arizonense:0.000140865,Kinosternon_flavescens:0.000304214)[&label="100/100"]:0.00106346,Kinosternon_durangoense:0.00220449)[&label="0/84"]:2.62260e-06,Kinosternon_stejnegeri:0.00208274)[&label="90.2/98"]:0.00108141,(Kinosternon_baurii:0.00480600,Kinosternon_subrubrum:0.00141898)[&label="100/100"]:0.00651270)[&label="99.5/93"]:0.00298119)[&label="100/100"]:0.00170239,((Sternotherus_carinatus:0.00380867,Sternotherus_odoratus:0.00237062)[&label="98.9/100"]:0.00121574,(Sternotherus_depressus:0.00461494,Sternotherus_minor:0.00233508)[&label="99.6/100"]:0.00110090)[&label="100/100"]:0.00366623)[&label="100/100"]:0.00621251)[&label="100/100"]:0.0131679,Dermatemys_mawii:0.0314668)[&label="100/100"]:0.0138966)[&label="100/100"]:0.00344924)[&label="100/100"]:0.00300965)[&label="100/100"]:0.0143147,((((((((Amyda_cartilaginea:0.00420773,((Nilssonia_formosa:0.00284929,Nilssonia_hurum:0.00289298)[&label="67.8/100"]:0.000350410,Nilssonia_gangetica:0.00506490)[&label="100/100"]:0.00204423)[&label="100/100"]:0.00429336,Dogania_subplana:0.0121225)[&label="100/100"]:0.00286898,Palea_steindachneri:0.00872197)[&label="100/100"]:0.00160071,Pelodiscus_sinensis:0.0136373)[&label="100/100"]:0.00434296,((Apalone_ferox:0.0103272,Apalone_spinifera:0.00306654)[&label="99/100"]:0.00231163,Apalone_mutica:0.00407810)[&label="100/100"]:0.0119897)[&label="100/100"]:0.00229774,((((Chitra_chitra:0.00174522,Chitra_vandijki:0.000940245)[&label="89.4/100"]:0.000260909,Chitra_indica:0.00150729)[&label="100/100"]:0.00586865,(Pelochelys_bibroni:0.000993184,Pelochelys_cantorii:0.00166514)[&label="100/100"]:0.00510803)[&label="100/100"]:0.00376613,Trionyx_triunguis:0.00977980)[&label="100/100"]:0.00367839)[&label="100/100"]:0.0174514,((Cyclanorbis_senegalensis:0.00637377,(Cycloderma_aubryi:0.00418700,Cycloderma_frenatum:0.00504031)[&label="97.3/100"]:0.00123282)[&label="71.7/100"]:0.000658027,(Lissemys_punctata:0.00407030,Lissemys_scutata:0.00499220)[&label="100/100"]:0.00543459)[&label="100/100"]:0.0604075)[&label="100/100"]:0.0468767,Carettochelys_insculpta:0.0993939)[&label="100/100"]:0.0187993)[&label="100/100"]:0.0313310,(((Erymnochelys_madagascariensis:0.0452639,((((Podocnemis_erythrocephala:0.00414710,Podocnemis_sextuberculata:0.00537820)[&label="97.2/100"]:0.00135087,Podocnemis_unifilis:0.00671511)[&label="86.1/100"]:0.000556487,Podocnemis_expansa:0.00819097)[&label="94.9/100"]:0.00424624,Podocnemis_vogli:0.0156740)[&label="100/100"]:0.0414186)[&label="94.1/96"]:0.00226382,Peltocephalus_dumerilianus:0.0352898)[&label="100/100"]:0.0266712,(Pelomedusa_subrufa:0.0126297,((((((Pelusios_adansonii:0.0133553,Pelusios_broadleyi:0.00517702)[&label="98.5/100"]:0.00109065,(Pelusios_castaneus:0.00367867,Pelusios_chapini:0.00163365)[&label="98.6/100"]:0.000849425)[&label="100/100"]:0.00243354,Pelusios_castanoides:0.00448094)[&label="39.6/99"]:0.000419827,(Pelusios_carinatus:0.00252590,Pelusios_rhodesianus:0.00178432)[&label="100/100"]:0.00207728)[&label="99.9/100"]:0.00116110,((Pelusios_bechuanicus:0.00256851,Pelusios_subniger:0.00234444)[&label="100/100"]:0.00365634,Pelusios_sinuatus:0.00504945)[&label="97.2/100"]:0.000918825)[&label="94.1/100"]:0.000506016,(Pelusios_gabonensis:0.00428145,Pelusios_niger:0.00571084)[&label="79/99"]:0.000139762)[&label="100/100"]:0.00777955)[&label="100/100"]:0.0440540)[&label="100/100"]:0.0291174)[&label="100/100"]:0.0178126,((((Chelodina_burrungandjii:0.00126013,Chelodina_parkeri:0.00304117)[&label="96/99"]:0.000359093,Chelodina_expansa:0.00224455)[&label="100/99"]:0.00117521,((((Chelodina_canni:0.000524519,(((Chelodina_gunaleni:0.000503249,Chelodina_novaeguineae:0.000206700)[&label="85.4/62"]:0.000292667,Chelodina_reimanni:0.000171822)[&label="96.7/62"]:0.000295202,Chelodina_pritchardi:0.000908063)[&label="72.8/99"]:0.000168152)[&label="22.8/64"]:0.000328359,Chelodina_mccordi:0.000869203)[&label="99.9/100"]:0.00103503,Chelodina_steindachneri:0.00153603)[&label="99.6/100"]:0.00102793,Chelodina_longicollis:0.00177004)[&label="100/100"]:0.00245445)[&label="0/85"]:2.21640e-06,((Chelodina_colliei:0.00412052,((((Elseya_albagula:0.00183554,(Elseya_irwini:0.00132578,Elseya_lavarackorum:0.000925333)[&label="99.9/100"]:0.00124956)[&label="100/100"]:0.00111104,(((Elseya_branderhorsti:0.000396866,Elseya_dentata:0.000332151)[&label="32.3/98"]:0.000181761,'sp._Sth':0.00121762)[&label="100/100"]:0.00379733,Elseya_novaeguineae:0.00675867)[&label="99.9/100"]:0.00161617)[&label="100/100"]:0.00271698,((Elusor_macrurus:0.00373186,(Emydura_macquarii:0.00178838,((Emydura_subglobosa:0.000858363,Emydura_tanybaraga:0.000835401)[&label="94.6/100"]:0.000236083,Emydura_victoriae:0.000715359)[&label="99.7/100"]:0.000828431)[&label="100/100"]:0.00455869)[&label="6/74"]:0.000500234,Rheodytes_leukops:0.00413439)[&label="96.6/100"]:0.000849483)[&label="100/100"]:0.00272570,(((Myuchelys_bellii:0.00143943,Myuchelys_georgesi:0.00300432)[&label="65.9/95"]:6.06000e-05,Myuchelys_latisternum:0.00207873)[&label="94.8/95"]:0.000709463,Myuchelys_purvisi:0.00232251)[&label="100/100"]:0.00457297)[&label="100/100"]:0.0249843)[&label="91.1/99"]:0.000574148,Chelodina_oblonga:0.00426275)[&label="100/100"]:0.0344811)[&label="100/100"]:0.0209130)[&label="100/100"]:0.00609033,Hydromedusa_tectifera:0.0182659)[&label="100/100"]:0.0138441,((((Mesoclemmys_gibba:0.00368793,(Mesoclemmys_nasuta:0.00264870,Mesoclemmys_zuliae:0.00381087)[&label="98.6/100"]:0.00120433)[&label="100/100"]:0.00376906,(((Phrynops_geoffroanus:2.75240e-06,Phrynops_tuberosus:0.000352236)[&label="100/100"]:0.00157202,Phrynops_williamsi:0.00292224)[&label="96.2/100"]:0.000650292,Phrynops_hilarii:0.000728229)[&label="100/100"]:0.00255812)[&label="83.6/99"]:0.000621535,Mesoclemmys_hogei:0.00597512)[&label="61.4/93"]:0.000961953,Ranacephala_hogei:0.00587985)[&label="97.7/100"]:0.00155494)[&label="100/100"]:0.00215775,(Chelus_fimbriata:0.00383870,Chelus_fimbriatus:1.00330e-06)[&label="97.7/100"]:0.00771791)[&label="99.8/100"]:0.00206983,Platemys_platycephala:0.00645019)[&label="100/100"]:0.00654085);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=511;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=true;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=true;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=7;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=true;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=true;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=true;
+	set rectilinearLayout.curvature=2667;
+	set rectilinearLayout.rootLength=2765;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=true;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=5.0;
+	set scaleAxis.minorTicks=2.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=false;
+	set scaleBar.fontSize=8.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=3.0;
+	set scaleBar.scaleRange=0.03;
+	set tipLabels.boxSize=4;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set tipLabels.tipPath=true;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=true;
+	set trees.transformType="cladogram";
+end;
+

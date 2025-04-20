@@ -1,0 +1,750 @@
+IQ-TREE multicore version 2.4.0 for Windows 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    DESKTOP-61Q14R8 (AVX2, FMA3, 7 GB RAM)
+Command: C:\Users\Rushe\Downloads\iqtree-2.4.0-Windows\iqtree-2.4.0-Windows\bin\iqtree2.exe -s C:\Users\Rushe\Desktop\capstone 2025\FASconCAT\cleaned_supermatrix.fas -m TEST -bb 1000 -alrt 1000
+Seed:    271077 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Mar 27 09:19:58 2025
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file C:\Users\Rushe\Desktop\capstone 2025\FASconCAT\cleaned_supermatrix.fas ... Fasta format detected
+Reading fasta file: done in 0.13424 secs using 23.28% CPU
+NOTE: Change sequence name 'Acanthochelys pallidipectoris' -> Acanthochelys_pallidipectoris
+NOTE: Change sequence name 'Acanthochelys spixii' -> Acanthochelys_spixii
+NOTE: Change sequence name 'Actinemys marmorata' -> Actinemys_marmorata
+NOTE: Change sequence name 'Actinemys pallida' -> Actinemys_pallida
+NOTE: Change sequence name 'Aldabrachelys gigantea' -> Aldabrachelys_gigantea
+NOTE: Change sequence name 'Amyda cartilaginea' -> Amyda_cartilaginea
+NOTE: Change sequence name 'Apalone ferox' -> Apalone_ferox
+NOTE: Change sequence name 'Apalone mutica' -> Apalone_mutica
+NOTE: Change sequence name 'Apalone spinifera' -> Apalone_spinifera
+NOTE: Change sequence name 'Astrochelys radiata' -> Astrochelys_radiata
+NOTE: Change sequence name 'Astrochelys yniphora' -> Astrochelys_yniphora
+NOTE: Change sequence name 'Batagur baska' -> Batagur_baska
+NOTE: Change sequence name 'Batagur borneoensis' -> Batagur_borneoensis
+NOTE: Change sequence name 'Batagur dhongoka' -> Batagur_dhongoka
+NOTE: Change sequence name 'Batagur kachuga' -> Batagur_kachuga
+NOTE: Change sequence name 'Batagur trivittata' -> Batagur_trivittata
+NOTE: Change sequence name 'Caretta caretta' -> Caretta_caretta
+NOTE: Change sequence name 'Carettochelys insculpta' -> Carettochelys_insculpta
+NOTE: Change sequence name 'Centrochelys sulcata' -> Centrochelys_sulcata
+NOTE: Change sequence name 'Chelodina burrungandjii' -> Chelodina_burrungandjii
+NOTE: Change sequence name 'Chelodina canni' -> Chelodina_canni
+NOTE: Change sequence name 'Chelodina colliei' -> Chelodina_colliei
+NOTE: Change sequence name 'Chelodina expansa' -> Chelodina_expansa
+NOTE: Change sequence name 'Chelodina gunaleni' -> Chelodina_gunaleni
+NOTE: Change sequence name 'Chelodina longicollis' -> Chelodina_longicollis
+NOTE: Change sequence name 'Chelodina mccordi' -> Chelodina_mccordi
+NOTE: Change sequence name 'Chelodina novaeguineae' -> Chelodina_novaeguineae
+NOTE: Change sequence name 'Chelodina oblonga' -> Chelodina_oblonga
+NOTE: Change sequence name 'Chelodina parkeri' -> Chelodina_parkeri
+NOTE: Change sequence name 'Chelodina pritchardi' -> Chelodina_pritchardi
+NOTE: Change sequence name 'Chelodina reimanni' -> Chelodina_reimanni
+NOTE: Change sequence name 'Chelodina steindachneri' -> Chelodina_steindachneri
+NOTE: Change sequence name 'Chelonia mydas' -> Chelonia_mydas
+NOTE: Change sequence name 'Chelonoidis abingdonii' -> Chelonoidis_abingdonii
+NOTE: Change sequence name 'Chelonoidis carbonarius' -> Chelonoidis_carbonarius
+NOTE: Change sequence name 'Chelonoidis chathamensis' -> Chelonoidis_chathamensis
+NOTE: Change sequence name 'Chelonoidis chilensis' -> Chelonoidis_chilensis
+NOTE: Change sequence name 'Chelonoidis denticulatus' -> Chelonoidis_denticulatus
+NOTE: Change sequence name 'Chelonoidis ephippium' -> Chelonoidis_ephippium
+NOTE: Change sequence name 'Chelonoidis hoodensis' -> Chelonoidis_hoodensis
+NOTE: Change sequence name 'Chelonoidis porteri' -> Chelonoidis_porteri
+NOTE: Change sequence name 'Chelus fimbriata' -> Chelus_fimbriata
+NOTE: Change sequence name 'Chelus fimbriatus' -> Chelus_fimbriatus
+NOTE: Change sequence name 'Chelydra acutirostris' -> Chelydra_acutirostris
+NOTE: Change sequence name 'Chelydra rossignonii' -> Chelydra_rossignonii
+NOTE: Change sequence name 'Chelydra serpentina' -> Chelydra_serpentina
+NOTE: Change sequence name 'Chersina angulata' -> Chersina_angulata
+NOTE: Change sequence name 'Chersobius boulengeri' -> Chersobius_boulengeri
+NOTE: Change sequence name 'Chersobius signatus' -> Chersobius_signatus
+NOTE: Change sequence name 'Chitra chitra' -> Chitra_chitra
+NOTE: Change sequence name 'Chitra indica' -> Chitra_indica
+NOTE: Change sequence name 'Chitra vandijki' -> Chitra_vandijki
+NOTE: Change sequence name 'Chrysemys dorsalis' -> Chrysemys_dorsalis
+NOTE: Change sequence name 'Chrysemys picta' -> Chrysemys_picta
+NOTE: Change sequence name 'Claudius angustatus' -> Claudius_angustatus
+NOTE: Change sequence name 'Clemmys guttata' -> Clemmys_guttata
+NOTE: Change sequence name 'Cryptochelys acuta' -> Cryptochelys_acuta
+NOTE: Change sequence name 'Cryptochelys creaseri' -> Cryptochelys_creaseri
+NOTE: Change sequence name 'Cryptochelys dunni' -> Cryptochelys_dunni
+NOTE: Change sequence name 'Cryptochelys herrerai' -> Cryptochelys_herrerai
+NOTE: Change sequence name 'Cryptochelys leucostomum' -> Cryptochelys_leucostomum
+NOTE: Change sequence name 'Cyclanorbis senegalensis' -> Cyclanorbis_senegalensis
+NOTE: Change sequence name 'Cyclemys atripons' -> Cyclemys_atripons
+NOTE: Change sequence name 'Cyclemys dentata' -> Cyclemys_dentata
+NOTE: Change sequence name 'Cyclemys fusca' -> Cyclemys_fusca
+NOTE: Change sequence name 'Cyclemys oldhami' -> Cyclemys_oldhami
+NOTE: Change sequence name 'Cyclemys oldhamii' -> Cyclemys_oldhamii
+NOTE: Change sequence name 'Cycloderma aubryi' -> Cycloderma_aubryi
+NOTE: Change sequence name 'Cycloderma frenatum' -> Cycloderma_frenatum
+NOTE: Change sequence name 'Deirochelys reticularia' -> Deirochelys_reticularia
+NOTE: Change sequence name 'Dermatemys mawii' -> Dermatemys_mawii
+NOTE: Change sequence name 'Dermochelys coriacea' -> Dermochelys_coriacea
+NOTE: Change sequence name 'Dogania subplana' -> Dogania_subplana
+NOTE: Change sequence name 'Elseya albagula' -> Elseya_albagula
+NOTE: Change sequence name 'Elseya branderhorsti' -> Elseya_branderhorsti
+NOTE: Change sequence name 'Elseya dentata' -> Elseya_dentata
+NOTE: Change sequence name 'Elseya irwini' -> Elseya_irwini
+NOTE: Change sequence name 'Elseya lavarackorum' -> Elseya_lavarackorum
+NOTE: Change sequence name 'Elseya novaeguineae' -> Elseya_novaeguineae
+NOTE: Change sequence name 'Elusor macrurus' -> Elusor_macrurus
+NOTE: Change sequence name 'Emydoidea blandingii' -> Emydoidea_blandingii
+NOTE: Change sequence name 'Emydura macquarii' -> Emydura_macquarii
+NOTE: Change sequence name 'Emydura subglobosa' -> Emydura_subglobosa
+NOTE: Change sequence name 'Emydura tanybaraga' -> Emydura_tanybaraga
+NOTE: Change sequence name 'Emydura victoriae' -> Emydura_victoriae
+NOTE: Change sequence name 'Emys blandingii' -> Emys_blandingii
+NOTE: Change sequence name 'Emys marmorata' -> Emys_marmorata
+NOTE: Change sequence name 'Emys orbicularis' -> Emys_orbicularis
+NOTE: Change sequence name 'Emys trinacris' -> Emys_trinacris
+NOTE: Change sequence name 'Eretmochelys imbricata' -> Eretmochelys_imbricata
+NOTE: Change sequence name 'Erymnochelys madagascariensis' -> Erymnochelys_madagascariensis
+NOTE: Change sequence name 'Geochelone elegans' -> Geochelone_elegans
+NOTE: Change sequence name 'Geochelone platynota' -> Geochelone_platynota
+NOTE: Change sequence name 'Geoclemys hamiltonii' -> Geoclemys_hamiltonii
+NOTE: Change sequence name 'Geoemyda japonica' -> Geoemyda_japonica
+NOTE: Change sequence name 'Geoemyda spengleri' -> Geoemyda_spengleri
+NOTE: Change sequence name 'Glyptemys insculpta' -> Glyptemys_insculpta
+NOTE: Change sequence name 'Glyptemys muhlenbergii' -> Glyptemys_muhlenbergii
+NOTE: Change sequence name 'Gopherus agassizii' -> Gopherus_agassizii
+NOTE: Change sequence name 'Gopherus berlandieri' -> Gopherus_berlandieri
+NOTE: Change sequence name 'Gopherus flavomarginatus' -> Gopherus_flavomarginatus
+NOTE: Change sequence name 'Gopherus morafkai' -> Gopherus_morafkai
+NOTE: Change sequence name 'Gopherus polyphemus' -> Gopherus_polyphemus
+NOTE: Change sequence name 'Graptemys barbouri' -> Graptemys_barbouri
+NOTE: Change sequence name 'Graptemys caglei' -> Graptemys_caglei
+NOTE: Change sequence name 'Graptemys ernsti' -> Graptemys_ernsti
+NOTE: Change sequence name 'Graptemys flavimaculata' -> Graptemys_flavimaculata
+NOTE: Change sequence name 'Graptemys geographica' -> Graptemys_geographica
+NOTE: Change sequence name 'Graptemys gibbonsi' -> Graptemys_gibbonsi
+NOTE: Change sequence name 'Graptemys nigrinoda' -> Graptemys_nigrinoda
+NOTE: Change sequence name 'Graptemys oculifera' -> Graptemys_oculifera
+NOTE: Change sequence name 'Graptemys ouachitensis' -> Graptemys_ouachitensis
+NOTE: Change sequence name 'Graptemys pearlensis' -> Graptemys_pearlensis
+NOTE: Change sequence name 'Graptemys pseudogeographica' -> Graptemys_pseudogeographica
+NOTE: Change sequence name 'Graptemys pulchra' -> Graptemys_pulchra
+NOTE: Change sequence name 'Graptemys sabinensis' -> Graptemys_sabinensis
+NOTE: Change sequence name 'Graptemys versa' -> Graptemys_versa
+NOTE: Change sequence name 'Hardella thurjii' -> Hardella_thurjii
+NOTE: Change sequence name 'Heosemys annandalii' -> Heosemys_annandalii
+NOTE: Change sequence name 'Heosemys depressa' -> Heosemys_depressa
+NOTE: Change sequence name 'Heosemys grandis' -> Heosemys_grandis
+NOTE: Change sequence name 'Heosemys spinosa' -> Heosemys_spinosa
+NOTE: Change sequence name 'Homopus areolatus' -> Homopus_areolatus
+NOTE: Change sequence name 'Hydromedusa tectifera' -> Hydromedusa_tectifera
+NOTE: Change sequence name 'Indotestudo elongata' -> Indotestudo_elongata
+NOTE: Change sequence name 'Indotestudo forstenii' -> Indotestudo_forstenii
+NOTE: Change sequence name 'Indotestudo travancorica' -> Indotestudo_travancorica
+NOTE: Change sequence name 'Kinixys belliana' -> Kinixys_belliana
+NOTE: Change sequence name 'Kinixys erosa' -> Kinixys_erosa
+NOTE: Change sequence name 'Kinixys homeana' -> Kinixys_homeana
+NOTE: Change sequence name 'Kinixys spekii' -> Kinixys_spekii
+NOTE: Change sequence name 'Kinosternon acutum' -> Kinosternon_acutum
+NOTE: Change sequence name 'Kinosternon arizonense' -> Kinosternon_arizonense
+NOTE: Change sequence name 'Kinosternon baurii' -> Kinosternon_baurii
+NOTE: Change sequence name 'Kinosternon chimalhuaca' -> Kinosternon_chimalhuaca
+NOTE: Change sequence name 'Kinosternon creaseri' -> Kinosternon_creaseri
+NOTE: Change sequence name 'Kinosternon dunni' -> Kinosternon_dunni
+NOTE: Change sequence name 'Kinosternon durangoense' -> Kinosternon_durangoense
+NOTE: Change sequence name 'Kinosternon flavescens' -> Kinosternon_flavescens
+NOTE: Change sequence name 'Kinosternon herrerai' -> Kinosternon_herrerai
+NOTE: Change sequence name 'Kinosternon hirtipes' -> Kinosternon_hirtipes
+NOTE: Change sequence name 'Kinosternon integrum' -> Kinosternon_integrum
+NOTE: Change sequence name 'Kinosternon leucostomum' -> Kinosternon_leucostomum
+NOTE: Change sequence name 'Kinosternon oaxacae' -> Kinosternon_oaxacae
+NOTE: Change sequence name 'Kinosternon scorpioides' -> Kinosternon_scorpioides
+NOTE: Change sequence name 'Kinosternon sonoriense' -> Kinosternon_sonoriense
+NOTE: Change sequence name 'Kinosternon stejnegeri' -> Kinosternon_stejnegeri
+NOTE: Change sequence name 'Kinosternon subrubrum' -> Kinosternon_subrubrum
+NOTE: Change sequence name 'Lepidochelys olivacea' -> Lepidochelys_olivacea
+NOTE: Change sequence name 'Leucocephalon yuwonoi' -> Leucocephalon_yuwonoi
+NOTE: Change sequence name 'Lissemys punctata' -> Lissemys_punctata
+NOTE: Change sequence name 'Lissemys scutata' -> Lissemys_scutata
+NOTE: Change sequence name 'Macrochelys temminckii' -> Macrochelys_temminckii
+NOTE: Change sequence name 'Malaclemys terrapin' -> Malaclemys_terrapin
+NOTE: Change sequence name 'Malacochersus tornieri' -> Malacochersus_tornieri
+NOTE: Change sequence name 'Malayemys subtrijuga' -> Malayemys_subtrijuga
+NOTE: Change sequence name 'Manouria emys' -> Manouria_emys
+NOTE: Change sequence name 'Manouria impressa' -> Manouria_impressa
+NOTE: Change sequence name 'Mauremys annamensis' -> Mauremys_annamensis
+NOTE: Change sequence name 'Mauremys caspica' -> Mauremys_caspica
+NOTE: Change sequence name 'Mauremys cf.' -> Mauremys_cf.
+NOTE: Change sequence name 'Mauremys japonica' -> Mauremys_japonica
+NOTE: Change sequence name 'Mauremys leprosa' -> Mauremys_leprosa
+NOTE: Change sequence name 'Mauremys mutica' -> Mauremys_mutica
+NOTE: Change sequence name 'Mauremys nigricans' -> Mauremys_nigricans
+NOTE: Change sequence name 'Mauremys reevesii' -> Mauremys_reevesii
+NOTE: Change sequence name 'Mauremys rivulata' -> Mauremys_rivulata
+NOTE: Change sequence name 'Mauremys sinensis' -> Mauremys_sinensis
+NOTE: Change sequence name 'Melanochelys trijuga' -> Melanochelys_trijuga
+NOTE: Change sequence name 'Mesoclemmys gibba' -> Mesoclemmys_gibba
+NOTE: Change sequence name 'Mesoclemmys hogei' -> Mesoclemmys_hogei
+NOTE: Change sequence name 'Mesoclemmys nasuta' -> Mesoclemmys_nasuta
+NOTE: Change sequence name 'Mesoclemmys zuliae' -> Mesoclemmys_zuliae
+NOTE: Change sequence name 'Morenia ocellata' -> Morenia_ocellata
+NOTE: Change sequence name 'Morenia petersi' -> Morenia_petersi
+NOTE: Change sequence name 'Myuchelys bellii' -> Myuchelys_bellii
+NOTE: Change sequence name 'Myuchelys georgesi' -> Myuchelys_georgesi
+NOTE: Change sequence name 'Myuchelys latisternum' -> Myuchelys_latisternum
+NOTE: Change sequence name 'Myuchelys purvisi' -> Myuchelys_purvisi
+NOTE: Change sequence name 'Nilssonia formosa' -> Nilssonia_formosa
+NOTE: Change sequence name 'Nilssonia gangetica' -> Nilssonia_gangetica
+NOTE: Change sequence name 'Nilssonia hurum' -> Nilssonia_hurum
+NOTE: Change sequence name 'Notochelys platynota' -> Notochelys_platynota
+NOTE: Change sequence name 'Orlitia borneensis' -> Orlitia_borneensis
+NOTE: Change sequence name 'Palea steindachneri' -> Palea_steindachneri
+NOTE: Change sequence name 'Pangshura smithii' -> Pangshura_smithii
+NOTE: Change sequence name 'Pangshura sylhetensis' -> Pangshura_sylhetensis
+NOTE: Change sequence name 'Pangshura tecta' -> Pangshura_tecta
+NOTE: Change sequence name 'Pangshura tentoria' -> Pangshura_tentoria
+NOTE: Change sequence name 'Pelochelys bibroni' -> Pelochelys_bibroni
+NOTE: Change sequence name 'Pelochelys cantorii' -> Pelochelys_cantorii
+NOTE: Change sequence name 'Pelodiscus sinensis' -> Pelodiscus_sinensis
+NOTE: Change sequence name 'Pelomedusa subrufa' -> Pelomedusa_subrufa
+NOTE: Change sequence name 'Peltocephalus dumerilianus' -> Peltocephalus_dumerilianus
+NOTE: Change sequence name 'Pelusios adansonii' -> Pelusios_adansonii
+NOTE: Change sequence name 'Pelusios bechuanicus' -> Pelusios_bechuanicus
+NOTE: Change sequence name 'Pelusios broadleyi' -> Pelusios_broadleyi
+NOTE: Change sequence name 'Pelusios carinatus' -> Pelusios_carinatus
+NOTE: Change sequence name 'Pelusios castaneus' -> Pelusios_castaneus
+NOTE: Change sequence name 'Pelusios castanoides' -> Pelusios_castanoides
+NOTE: Change sequence name 'Pelusios chapini' -> Pelusios_chapini
+NOTE: Change sequence name 'Pelusios gabonensis' -> Pelusios_gabonensis
+NOTE: Change sequence name 'Pelusios niger' -> Pelusios_niger
+NOTE: Change sequence name 'Pelusios rhodesianus' -> Pelusios_rhodesianus
+NOTE: Change sequence name 'Pelusios sinuatus' -> Pelusios_sinuatus
+NOTE: Change sequence name 'Pelusios subniger' -> Pelusios_subniger
+NOTE: Change sequence name 'Phrynops geoffroanus' -> Phrynops_geoffroanus
+NOTE: Change sequence name 'Phrynops hilarii' -> Phrynops_hilarii
+NOTE: Change sequence name 'Phrynops tuberosus' -> Phrynops_tuberosus
+NOTE: Change sequence name 'Phrynops williamsi' -> Phrynops_williamsi
+NOTE: Change sequence name 'Platemys platycephala' -> Platemys_platycephala
+NOTE: Change sequence name 'Platysternon megacephalum' -> Platysternon_megacephalum
+NOTE: Change sequence name 'Podocnemis erythrocephala' -> Podocnemis_erythrocephala
+NOTE: Change sequence name 'Podocnemis expansa' -> Podocnemis_expansa
+NOTE: Change sequence name 'Podocnemis sextuberculata' -> Podocnemis_sextuberculata
+NOTE: Change sequence name 'Podocnemis unifilis' -> Podocnemis_unifilis
+NOTE: Change sequence name 'Podocnemis vogli' -> Podocnemis_vogli
+NOTE: Change sequence name 'Psammobates oculifer' -> Psammobates_oculifer
+NOTE: Change sequence name 'Psammobates oculiferus' -> Psammobates_oculiferus
+NOTE: Change sequence name 'Psammobates pardalis' -> Psammobates_pardalis
+NOTE: Change sequence name 'Psammobates tentorius' -> Psammobates_tentorius
+NOTE: Change sequence name 'Pseudemys alabamensis' -> Pseudemys_alabamensis
+NOTE: Change sequence name 'Pseudemys concinna' -> Pseudemys_concinna
+NOTE: Change sequence name 'Pseudemys floridana' -> Pseudemys_floridana
+NOTE: Change sequence name 'Pseudemys gorzugi' -> Pseudemys_gorzugi
+NOTE: Change sequence name 'Pseudemys nelsoni' -> Pseudemys_nelsoni
+NOTE: Change sequence name 'Pseudemys peninsularis' -> Pseudemys_peninsularis
+NOTE: Change sequence name 'Pseudemys rubriventris' -> Pseudemys_rubriventris
+NOTE: Change sequence name 'Pseudemys texana' -> Pseudemys_texana
+NOTE: Change sequence name 'Pyxis arachnoides' -> Pyxis_arachnoides
+NOTE: Change sequence name 'Pyxis planicauda' -> Pyxis_planicauda
+NOTE: Change sequence name 'Ranacephala hogei' -> Ranacephala_hogei
+NOTE: Change sequence name 'Rheodytes leukops' -> Rheodytes_leukops
+NOTE: Change sequence name 'Rhinoclemmys annulata' -> Rhinoclemmys_annulata
+NOTE: Change sequence name 'Rhinoclemmys areolata' -> Rhinoclemmys_areolata
+NOTE: Change sequence name 'Rhinoclemmys diademata' -> Rhinoclemmys_diademata
+NOTE: Change sequence name 'Rhinoclemmys funerea' -> Rhinoclemmys_funerea
+NOTE: Change sequence name 'Rhinoclemmys melanosterna' -> Rhinoclemmys_melanosterna
+NOTE: Change sequence name 'Rhinoclemmys pulcherrima' -> Rhinoclemmys_pulcherrima
+NOTE: Change sequence name 'Rhinoclemmys punctularia' -> Rhinoclemmys_punctularia
+NOTE: Change sequence name 'Rhinoclemmys rubida' -> Rhinoclemmys_rubida
+NOTE: Change sequence name 'Sacalia bealei' -> Sacalia_bealei
+NOTE: Change sequence name 'Sacalia quadriocellata' -> Sacalia_quadriocellata
+NOTE: Change sequence name 'Siebenrockiella crassicollis' -> Siebenrockiella_crassicollis
+NOTE: Change sequence name 'Siebenrockiella leytensis' -> Siebenrockiella_leytensis
+NOTE: Change sequence name 'Staurotypus salvinii' -> Staurotypus_salvinii
+NOTE: Change sequence name 'Staurotypus triporcatus' -> Staurotypus_triporcatus
+NOTE: Change sequence name 'Sternotherus carinatus' -> Sternotherus_carinatus
+NOTE: Change sequence name 'Sternotherus depressus' -> Sternotherus_depressus
+NOTE: Change sequence name 'Sternotherus minor' -> Sternotherus_minor
+NOTE: Change sequence name 'Sternotherus odoratus' -> Sternotherus_odoratus
+NOTE: Change sequence name 'Stigmochelys pardalis' -> Stigmochelys_pardalis
+NOTE: Change sequence name 'Terrapene carolina' -> Terrapene_carolina
+NOTE: Change sequence name 'Terrapene coahuila' -> Terrapene_coahuila
+NOTE: Change sequence name 'Terrapene nelsoni' -> Terrapene_nelsoni
+NOTE: Change sequence name 'Terrapene ornata' -> Terrapene_ornata
+NOTE: Change sequence name 'Terrapene triunguis' -> Terrapene_triunguis
+NOTE: Change sequence name 'Testudo graeca' -> Testudo_graeca
+NOTE: Change sequence name 'Testudo hermanni' -> Testudo_hermanni
+NOTE: Change sequence name 'Testudo horsfieldii' -> Testudo_horsfieldii
+NOTE: Change sequence name 'Testudo kleinmanni' -> Testudo_kleinmanni
+NOTE: Change sequence name 'Testudo marginata' -> Testudo_marginata
+NOTE: Change sequence name 'Trachemys adiutrix' -> Trachemys_adiutrix
+NOTE: Change sequence name 'Trachemys callirostris' -> Trachemys_callirostris
+NOTE: Change sequence name 'Trachemys decorata' -> Trachemys_decorata
+NOTE: Change sequence name 'Trachemys decussata' -> Trachemys_decussata
+NOTE: Change sequence name 'Trachemys dorbigni' -> Trachemys_dorbigni
+NOTE: Change sequence name 'Trachemys emolli' -> Trachemys_emolli
+NOTE: Change sequence name 'Trachemys gaigeae' -> Trachemys_gaigeae
+NOTE: Change sequence name 'Trachemys grayi' -> Trachemys_grayi
+NOTE: Change sequence name 'Trachemys nebulosa' -> Trachemys_nebulosa
+NOTE: Change sequence name 'Trachemys scripta' -> Trachemys_scripta
+NOTE: Change sequence name 'Trachemys stejnegeri' -> Trachemys_stejnegeri
+NOTE: Change sequence name 'Trachemys taylori' -> Trachemys_taylori
+NOTE: Change sequence name 'Trachemys terrapen' -> Trachemys_terrapen
+NOTE: Change sequence name 'Trachemys venusta' -> Trachemys_venusta
+NOTE: Change sequence name 'Trionyx triunguis' -> Trionyx_triunguis
+NOTE: Change sequence name 'Vijayachelys silvatica' -> Vijayachelys_silvatica
+NOTE: Change sequence name 'sp. Sth' -> sp._Sth
+NOTE: Change sequence name 'sp. fusca' -> sp._fusca
+NOTE: Change sequence name 'sp. voucher' -> sp._voucher
+Alignment most likely contains DNA/RNA sequences
+Alignment has 281 sequences with 20024 columns, 7368 distinct patterns
+9846 parsimony-informative, 2964 singleton sites, 7214 constant sites
+                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0192204 secs
+   1  Acanthochelys_pallidipectoris   18.69%    failed      1.25%
+   2  Acanthochelys_spixii            15.85%    failed      2.80%
+   3  Actinemys_marmorata             28.18%    passed      6.01%
+   4  Actinemys_pallida               55.47%    passed     90.04%
+   5  Aldabrachelys_gigantea           0.55%    passed     65.14%
+   6  Amyda_cartilaginea               8.57%    passed     88.95%
+   7  Apalone_ferox                   11.21%    passed     15.08%
+   8  Apalone_mutica                  16.93%    passed     68.63%
+   9  Apalone_spinifera               25.86%    passed     22.50%
+  10  Astrochelys_radiata              0.87%    passed     45.18%
+  11  Astrochelys_yniphora             8.42%    passed     99.70%
+  12  Batagur_baska                   46.43%    failed      0.55%
+  13  Batagur_borneoensis              4.31%    passed     82.32%
+  14  Batagur_dhongoka                 9.53%    passed     79.55%
+  15  Batagur_kachuga                 27.24%    passed     79.84%
+  16  Batagur_trivittata               9.08%    passed     93.52%
+  17  Caretta_caretta                  1.56%    passed     92.80%
+  18  Carettochelys_insculpta          7.10%    passed     63.00%
+  19  Centrochelys_sulcata             2.09%    passed     58.19%
+  20  Chelodina_burrungandjii         14.83%    passed     37.52%
+  21  Chelodina_canni                 14.51%    passed     46.95%
+  22  Chelodina_colliei                8.59%    passed     99.99%
+  23  Chelodina_expansa                6.94%    passed     46.79%
+  24  Chelodina_gunaleni              14.48%    passed     45.32%
+  25  Chelodina_longicollis           13.86%    passed     46.25%
+  26  Chelodina_mccordi               10.33%    passed     69.59%
+  27  Chelodina_novaeguineae           9.90%    passed     78.11%
+  28  Chelodina_oblonga                9.66%    passed     83.09%
+  29  Chelodina_parkeri                7.61%    passed     42.31%
+  30  Chelodina_pritchardi            16.58%    passed     23.52%
+  31  Chelodina_reimanni              13.41%    passed     45.95%
+  32  Chelodina_steindachneri          8.45%    passed     70.95%
+  33  Chelonia_mydas                   1.83%    passed     99.42%
+  34  Chelonoidis_abingdonii           0.42%    passed     64.28%
+  35  Chelonoidis_carbonarius          1.06%    passed     71.75%
+  36  Chelonoidis_chathamensis         2.13%    passed     82.23%
+  37  Chelonoidis_chilensis            9.95%    passed     62.38%
+  38  Chelonoidis_denticulatus         0.25%    passed     63.79%
+  39  Chelonoidis_ephippium            0.21%    passed     61.36%
+  40  Chelonoidis_hoodensis            0.67%    passed     76.45%
+  41  Chelonoidis_porteri              0.63%    passed     74.49%
+  42  Chelus_fimbriata                16.03%    passed     31.06%
+  43  Chelus_fimbriatus               92.42%    failed      0.00%
+  44  Chelydra_acutirostris            3.02%    passed     93.83%
+  45  Chelydra_rossignonii             9.59%    passed     24.12%
+  46  Chelydra_serpentina              1.20%    passed     88.41%
+  47  Chersina_angulata                6.44%    passed     89.70%
+  48  Chersobius_boulengeri           36.84%    passed     38.24%
+  49  Chersobius_signatus              0.89%    passed     75.25%
+  50  Chitra_chitra                   22.35%    passed     14.29%
+  51  Chitra_indica                   16.62%    passed     89.28%
+  52  Chitra_vandijki                 22.51%    passed     11.24%
+  53  Chrysemys_dorsalis               0.26%    passed     95.74%
+  54  Chrysemys_picta                  6.52%    passed     43.06%
+  55  Claudius_angustatus              7.34%    passed     73.64%
+  56  Clemmys_guttata                  5.23%    passed     49.88%
+  57  Cryptochelys_acuta              14.65%    passed     79.23%
+  58  Cryptochelys_creaseri           29.24%    passed     19.16%
+  59  Cryptochelys_dunni              14.52%    passed     60.15%
+  60  Cryptochelys_herrerai           15.95%    passed     33.52%
+  61  Cryptochelys_leucostomum        14.21%    passed     69.91%
+  62  Cyclanorbis_senegalensis        30.25%    passed     10.49%
+  63  Cyclemys_atripons                8.66%    passed     57.31%
+  64  Cyclemys_dentata                 1.87%    passed     77.19%
+  65  Cyclemys_fusca                  16.33%    passed      9.79%
+  66  Cyclemys_oldhami                70.90%    failed      0.23%
+  67  Cyclemys_oldhamii               30.40%    passed     13.68%
+  68  Cycloderma_aubryi               30.05%    passed     85.61%
+  69  Cycloderma_frenatum             10.73%    passed     47.54%
+  70  Deirochelys_reticularia          6.51%    passed     46.29%
+  71  Dermatemys_mawii                 1.39%    passed     76.56%
+  72  Dermochelys_coriacea             2.74%    passed     81.27%
+  73  Dogania_subplana                22.46%    passed     66.16%
+  74  Elseya_albagula                 19.50%    passed     48.55%
+  75  Elseya_branderhorsti            15.76%    passed     93.58%
+  76  Elseya_dentata                  13.15%    passed     98.29%
+  77  Elseya_irwini                   13.68%    passed     98.33%
+  78  Elseya_lavarackorum             19.52%    passed     95.18%
+  79  Elseya_novaeguineae             13.34%    passed     97.33%
+  80  Elusor_macrurus                 13.96%    passed     96.38%
+  81  Emydoidea_blandingii             6.60%    passed     46.49%
+  82  Emydura_macquarii               12.98%    passed     99.96%
+  83  Emydura_subglobosa              16.07%    passed     87.94%
+  84  Emydura_tanybaraga              13.59%    passed     99.32%
+  85  Emydura_victoriae               13.22%    passed     97.52%
+  86  Emys_blandingii                 93.71%    failed      3.64%
+  87  Emys_marmorata                  19.11%    failed      1.59%
+  88  Emys_orbicularis                 5.65%    passed     53.77%
+  89  Emys_trinacris                   3.89%    passed     40.62%
+  90  Eretmochelys_imbricata           1.89%    passed     91.06%
+  91  Erymnochelys_madagascariensis   37.97%    failed      0.76%
+  92  Geochelone_elegans               0.61%    passed     62.85%
+  93  Geochelone_platynota             4.72%    passed     65.07%
+  94  Geoclemys_hamiltonii             0.88%    passed     84.47%
+  95  Geoemyda_japonica                1.35%    passed     99.37%
+  96  Geoemyda_spengleri               1.37%    passed     99.83%
+  97  Glyptemys_insculpta              7.93%    passed     40.67%
+  98  Glyptemys_muhlenbergii           4.68%    passed     62.53%
+  99  Gopherus_agassizii               1.54%    passed     76.17%
+ 100  Gopherus_berlandieri             1.24%    passed     78.50%
+ 101  Gopherus_flavomarginatus         1.22%    passed     98.93%
+ 102  Gopherus_morafkai                3.40%    passed     83.41%
+ 103  Gopherus_polyphemus              0.61%    passed     84.81%
+ 104  Graptemys_barbouri               7.02%    passed     30.39%
+ 105  Graptemys_caglei                 3.74%    passed     93.05%
+ 106  Graptemys_ernsti                 2.19%    passed     95.88%
+ 107  Graptemys_flavimaculata          4.62%    passed     91.60%
+ 108  Graptemys_geographica            7.74%    passed     14.58%
+ 109  Graptemys_gibbonsi               5.14%    passed     94.69%
+ 110  Graptemys_nigrinoda              4.16%    passed     70.32%
+ 111  Graptemys_oculifera              3.28%    passed     92.32%
+ 112  Graptemys_ouachitensis           3.43%    passed     94.34%
+ 113  Graptemys_pearlensis             8.32%    passed     43.56%
+ 114  Graptemys_pseudogeographica      5.24%    passed     98.49%
+ 115  Graptemys_pulchra                4.71%    passed     95.59%
+ 116  Graptemys_sabinensis            20.48%    passed     15.36%
+ 117  Graptemys_versa                  5.24%    passed     94.11%
+ 118  Hardella_thurjii                 5.07%    passed     92.95%
+ 119  Heosemys_annandalii              5.10%    passed     67.12%
+ 120  Heosemys_depressa                3.00%    passed     78.84%
+ 121  Heosemys_grandis                 9.44%    passed     14.24%
+ 122  Heosemys_spinosa                 9.13%    passed     74.47%
+ 123  Homopus_areolatus               13.51%    passed     88.18%
+ 124  Hydromedusa_tectifera           18.59%    passed     22.18%
+ 125  Indotestudo_elongata             1.51%    passed     57.31%
+ 126  Indotestudo_forstenii            7.55%    passed     82.22%
+ 127  Indotestudo_travancorica         0.58%    passed     77.30%
+ 128  Kinixys_belliana                 2.16%    passed     46.02%
+ 129  Kinixys_erosa                    1.88%    passed     48.48%
+ 130  Kinixys_homeana                 13.29%    passed     37.43%
+ 131  Kinixys_spekii                   0.35%    passed     36.52%
+ 132  Kinosternon_acutum              92.42%    failed      0.00%
+ 133  Kinosternon_arizonense          29.42%    passed     75.89%
+ 134  Kinosternon_baurii              11.39%    passed     41.01%
+ 135  Kinosternon_chimalhuaca          7.43%    passed     85.74%
+ 136  Kinosternon_creaseri            35.60%    failed      0.00%
+ 137  Kinosternon_dunni               52.90%    failed      3.32%
+ 138  Kinosternon_durangoense         13.27%    passed      9.93%
+ 139  Kinosternon_flavescens          14.58%    failed      3.43%
+ 140  Kinosternon_herrerai            63.95%    failed      0.00%
+ 141  Kinosternon_hirtipes             7.06%    passed     98.61%
+ 142  Kinosternon_integrum             6.97%    passed     91.38%
+ 143  Kinosternon_leucostomum         49.06%    passed     47.81%
+ 144  Kinosternon_oaxacae             12.00%    passed     67.76%
+ 145  Kinosternon_scorpioides          9.23%    passed     96.71%
+ 146  Kinosternon_sonoriense           7.72%    passed     97.64%
+ 147  Kinosternon_stejnegeri          80.07%    failed      0.00%
+ 148  Kinosternon_subrubrum           16.08%    failed      3.14%
+ 149  Lepidochelys_olivacea            1.06%    passed     94.74%
+ 150  Leucocephalon_yuwonoi            0.38%    passed     88.24%
+ 151  Lissemys_punctata               24.39%    passed     32.70%
+ 152  Lissemys_scutata                17.05%    passed     59.44%
+ 153  Macrochelys_temminckii           1.84%    passed     95.87%
+ 154  Malaclemys_terrapin              6.01%    passed     77.86%
+ 155  Malacochersus_tornieri           1.75%    passed     59.77%
+ 156  Malayemys_subtrijuga             6.67%    passed     77.24%
+ 157  Manouria_emys                    9.02%    passed     15.58%
+ 158  Manouria_impressa                0.28%    passed     60.99%
+ 159  Mauremys_annamensis              0.53%    passed     97.46%
+ 160  Mauremys_caspica                 6.48%    passed     94.71%
+ 161  Mauremys_cf.                    90.81%    failed      0.00%
+ 162  Mauremys_japonica                0.77%    passed     96.05%
+ 163  Mauremys_leprosa                 1.77%    passed     95.38%
+ 164  Mauremys_mutica                 10.02%    passed      5.87%
+ 165  Mauremys_nigricans              11.50%    passed     87.09%
+ 166  Mauremys_reevesii                2.86%    passed     89.85%
+ 167  Mauremys_rivulata                0.72%    passed     99.25%
+ 168  Mauremys_sinensis                8.57%    passed     74.80%
+ 169  Melanochelys_trijuga             0.60%    passed     92.40%
+ 170  Mesoclemmys_gibba               30.55%    failed      0.19%
+ 171  Mesoclemmys_hogei               83.65%    failed      1.31%
+ 172  Mesoclemmys_nasuta               9.00%    passed     54.17%
+ 173  Mesoclemmys_zuliae              38.60%    passed     11.07%
+ 174  Morenia_ocellata                 2.18%    passed     61.57%
+ 175  Morenia_petersi                  0.38%    passed     76.39%
+ 176  Myuchelys_bellii                13.40%    passed     90.94%
+ 177  Myuchelys_georgesi              13.56%    passed     93.88%
+ 178  Myuchelys_latisternum           13.00%    passed     93.51%
+ 179  Myuchelys_purvisi               12.89%    passed     94.34%
+ 180  Nilssonia_formosa               30.42%    passed     67.02%
+ 181  Nilssonia_gangetica             23.07%    passed     90.49%
+ 182  Nilssonia_hurum                 16.44%    passed     32.34%
+ 183  Notochelys_platynota             1.13%    passed     72.34%
+ 184  Orlitia_borneensis               1.49%    passed     98.89%
+ 185  Palea_steindachneri              7.83%    passed     85.25%
+ 186  Pangshura_smithii                4.74%    passed     69.79%
+ 187  Pangshura_sylhetensis           34.41%    passed     66.51%
+ 188  Pangshura_tecta                  5.93%    passed     62.88%
+ 189  Pangshura_tentoria              12.40%    passed     56.69%
+ 190  Pelochelys_bibroni               2.56%    passed     51.53%
+ 191  Pelochelys_cantorii             23.65%    passed     95.89%
+ 192  Pelodiscus_sinensis             14.30%    passed     63.79%
+ 193  Pelomedusa_subrufa              18.53%    passed     69.85%
+ 194  Peltocephalus_dumerilianus      17.73%    passed     88.55%
+ 195  Pelusios_adansonii              33.90%    passed      8.57%
+ 196  Pelusios_bechuanicus            21.21%    passed     12.02%
+ 197  Pelusios_broadleyi              38.54%    passed     12.90%
+ 198  Pelusios_carinatus              28.62%    passed     23.18%
+ 199  Pelusios_castaneus              10.57%    passed     36.35%
+ 200  Pelusios_castanoides            15.79%    passed     58.65%
+ 201  Pelusios_chapini                27.41%    passed     75.35%
+ 202  Pelusios_gabonensis             22.02%    passed     37.36%
+ 203  Pelusios_niger                  35.80%    passed     41.47%
+ 204  Pelusios_rhodesianus            47.90%    failed      0.00%
+ 205  Pelusios_sinuatus               22.89%    passed     21.62%
+ 206  Pelusios_subniger               27.34%    failed      1.12%
+ 207  Phrynops_geoffroanus            13.43%    passed      8.80%
+ 208  Phrynops_hilarii                 7.03%    passed     47.00%
+ 209  Phrynops_tuberosus              30.34%    failed      1.22%
+ 210  Phrynops_williamsi              25.17%    failed      0.36%
+ 211  Platemys_platycephala           20.15%    passed      7.50%
+ 212  Platysternon_megacephalum        2.74%    passed     90.40%
+ 213  Podocnemis_erythrocephala       28.66%    passed     27.09%
+ 214  Podocnemis_expansa              28.51%    failed      4.88%
+ 215  Podocnemis_sextuberculata       24.41%    passed     92.17%
+ 216  Podocnemis_unifilis             34.62%    passed     32.04%
+ 217  Podocnemis_vogli                40.40%    passed     42.89%
+ 218  Psammobates_oculifer            35.69%    passed     34.09%
+ 219  Psammobates_oculiferus          70.09%    failed      0.00%
+ 220  Psammobates_pardalis             9.25%    passed     20.28%
+ 221  Psammobates_tentorius            1.64%    passed     50.50%
+ 222  Pseudemys_alabamensis            1.51%    passed     88.18%
+ 223  Pseudemys_concinna               2.55%    passed     99.89%
+ 224  Pseudemys_floridana             41.83%    passed     49.57%
+ 225  Pseudemys_gorzugi                0.10%    passed     97.01%
+ 226  Pseudemys_nelsoni                0.92%    passed     91.12%
+ 227  Pseudemys_peninsularis           4.74%    passed     98.64%
+ 228  Pseudemys_rubriventris           3.94%    passed     95.43%
+ 229  Pseudemys_texana                 1.43%    passed     92.20%
+ 230  Pyxis_arachnoides                1.60%    passed     57.97%
+ 231  Pyxis_planicauda                 0.53%    passed     18.81%
+ 232  Ranacephala_hogei               43.15%    failed      2.46%
+ 233  Rheodytes_leukops               12.87%    passed     90.20%
+ 234  Rhinoclemmys_annulata           13.79%    passed     43.62%
+ 235  Rhinoclemmys_areolata            2.70%    passed     96.19%
+ 236  Rhinoclemmys_diademata           3.05%    passed     92.30%
+ 237  Rhinoclemmys_funerea             1.88%    passed     97.77%
+ 238  Rhinoclemmys_melanosterna       41.34%    passed     23.57%
+ 239  Rhinoclemmys_pulcherrima         2.70%    passed     99.19%
+ 240  Rhinoclemmys_punctularia         1.43%    passed     90.22%
+ 241  Rhinoclemmys_rubida              0.55%    passed     97.77%
+ 242  Sacalia_bealei                   3.37%    passed     93.56%
+ 243  Sacalia_quadriocellata           0.85%    passed     95.99%
+ 244  Siebenrockiella_crassicollis     1.11%    passed     93.56%
+ 245  Siebenrockiella_leytensis        9.55%    passed     85.41%
+ 246  Staurotypus_salvinii             7.64%    passed     76.55%
+ 247  Staurotypus_triporcatus          7.11%    passed     86.27%
+ 248  Sternotherus_carinatus           6.89%    passed     90.62%
+ 249  Sternotherus_depressus           6.85%    passed     74.58%
+ 250  Sternotherus_minor               8.52%    passed     91.09%
+ 251  Sternotherus_odoratus            8.44%    passed     47.16%
+ 252  Stigmochelys_pardalis            2.12%    passed     83.49%
+ 253  Terrapene_carolina               4.43%    passed     98.22%
+ 254  Terrapene_coahuila               7.31%    passed     68.42%
+ 255  Terrapene_nelsoni               22.42%    failed      0.05%
+ 256  Terrapene_ornata                 7.55%    passed     40.75%
+ 257  Terrapene_triunguis             39.33%    passed     29.53%
+ 258  Testudo_graeca                   4.09%    passed     87.64%
+ 259  Testudo_hermanni                 9.89%    passed     88.82%
+ 260  Testudo_horsfieldii              1.07%    passed     54.87%
+ 261  Testudo_kleinmanni               7.78%    passed     98.57%
+ 262  Testudo_marginata                0.63%    passed     63.77%
+ 263  Trachemys_adiutrix               0.42%    passed     94.61%
+ 264  Trachemys_callirostris          30.51%    passed     28.18%
+ 265  Trachemys_decorata               1.00%    passed     92.14%
+ 266  Trachemys_decussata              3.77%    passed     93.43%
+ 267  Trachemys_dorbigni               6.01%    passed     96.93%
+ 268  Trachemys_emolli                60.77%    failed      0.00%
+ 269  Trachemys_gaigeae                0.59%    passed     94.57%
+ 270  Trachemys_grayi                  9.13%    passed     99.80%
+ 271  Trachemys_nebulosa              25.72%    passed     78.43%
+ 272  Trachemys_scripta                3.94%    passed     57.11%
+ 273  Trachemys_stejnegeri             4.53%    passed     75.64%
+ 274  Trachemys_taylori               30.76%    passed     95.88%
+ 275  Trachemys_terrapen               0.08%    passed     94.50%
+ 276  Trachemys_venusta                0.23%    passed     89.12%
+ 277  Trionyx_triunguis               16.55%    passed     76.31%
+ 278  Vijayachelys_silvatica          35.33%    failed      2.11%
+ 279  sp._Sth                         43.16%    passed     10.79%
+ 280  sp._fusca                       90.80%    failed      0.00%
+ 281  sp._voucher                      0.39%    passed     74.77%
+WARNING: 13 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                           14.71%  29 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.782 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -258111.983
+Optimal log-likelihood: -258111.916
+Rate parameters:  A-C: 0.89158  A-G: 3.08112  A-T: 0.66570  C-G: 0.97060  C-T: 3.53215  G-T: 1.00000
+Base frequencies:  A: 0.303  C: 0.206  G: 0.216  T: 0.274
+Proportion of invariable sites: 0.170
+Gamma shape alpha: 1.575
+Parameters optimization took 1 rounds (1.582 sec)
+Time for fast ML tree search: 15.807 seconds
+
+NOTE: ModelFinder requires 296 MB RAM!
+ModelFinder will test up to 88 DNA models (sample size: 20024 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         263942.900   567 529019.799   529052.905   533501.757
+  2  GTR+F+I       259606.203   568 520348.405   520381.630   524838.267
+  3  GTR+F+G4      258204.448   568 517544.897   517578.121   522034.759
+  4  GTR+F+I+G4    258111.725   569 517361.451   517394.794   521859.217
+  8  SYM+I+G4      258964.680   566 519061.360   519094.348   523535.413
+ 12  TVM+F+I+G4    258146.267   568 517428.534   517461.759   521918.397
+ 16  TVMe+I+G4     258968.597   565 519067.193   519100.063   523533.341
+ 20  TIM3+F+I+G4   258228.043   567 517590.085   517623.191   522072.042
+ 24  TIM3e+I+G4    258998.347   564 519124.694   519157.446   523582.938
+ 28  TIM2+F+I+G4   258170.214   567 517474.429   517507.535   521956.386
+ 32  TIM2e+I+G4    259007.037   564 519142.075   519174.827   523600.318
+ 36  TIM+F+I+G4    258205.465   567 517544.930   517578.036   522026.888
+ 40  TIMe+I+G4     258974.646   564 519077.292   519110.044   523535.536
+ 44  TPM3u+F+I+G4  258264.694   566 517661.388   517694.376   522135.441
+ 48  TPM3+I+G4     259002.280   563 519130.560   519163.194   523580.898
+ 52  TPM2u+F+I+G4  258204.000   566 517540.000   517572.988   522014.053
+ 56  TPM2+I+G4     259010.713   563 519147.425   519180.060   523597.764
+ 60  K3Pu+F+I+G4   258241.201   566 517614.401   517647.389   522088.454
+ 64  K3P+I+G4      258978.431   563 519082.862   519115.497   523533.201
+ 68  TN+F+I+G4     258252.581   566 517637.163   517670.150   522111.215
+ 72  TNe+I+G4      259007.032   563 519140.063   519172.698   523590.402
+ 76  HKY+F+I+G4    258288.368   565 517706.736   517739.606   522172.884
+ 80  K2P+I+G4      259010.793   562 519145.586   519178.103   523588.020
+ 84  F81+F+I+G4    265843.883   564 532815.765   532848.517   537274.009
+ 88  JC+I+G4       266439.245   561 534000.491   534032.891   538435.020
+Akaike Information Criterion:           GTR+F+I+G4
+Corrected Akaike Information Criterion: GTR+F+I+G4
+Bayesian Information Criterion:         GTR+F+I+G4
+Best-fit model: GTR+F+I+G4 chosen according to BIC
+
+All model information printed to C:\Users\Rushe\Desktop\capstone 2025\FASconCAT\cleaned_supermatrix.fas.model.gz
+CPU time for ModelFinder: 220.266 seconds (0h:3m:40s)
+Wall-clock time for ModelFinder: 322.477 seconds (0h:5m:22s)
+Generating 1000 samples for ultrafast bootstrap (seed: 271077)...
+
+NOTE: 296 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.488 / Estimate: 0.000, 0.883 / LogL: -258204.470
+Init pinv, alpha: 0.040, 1.488 / Estimate: 0.162, 1.521 / LogL: -258112.233
+Init pinv, alpha: 0.080, 1.488 / Estimate: 0.162, 1.519 / LogL: -258112.269
+Init pinv, alpha: 0.120, 1.488 / Estimate: 0.162, 1.522 / LogL: -258112.223
+Init pinv, alpha: 0.160, 1.488 / Estimate: 0.162, 1.521 / LogL: -258112.346
+Init pinv, alpha: 0.200, 1.488 / Estimate: 0.179, 1.638 / LogL: -258112.075
+Init pinv, alpha: 0.240, 1.488 / Estimate: 0.179, 1.638 / LogL: -258112.071
+Init pinv, alpha: 0.280, 1.488 / Estimate: 0.179, 1.638 / LogL: -258112.081
+Init pinv, alpha: 0.320, 1.488 / Estimate: 0.179, 1.637 / LogL: -258112.090
+Init pinv, alpha: 0.360, 1.488 / Estimate: 0.179, 1.641 / LogL: -258112.152
+Optimal pinv,alpha: 0.179, 1.638 / LogL: -258112.071
+
+Parameters optimization took 418.356 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.920777 secs using 45.82% CPU
+Computing ML distances took 0.942502 sec (of wall-clock time) 0.421875 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.0019878 secs
+Computing RapidNJ tree took 0.008748 sec (of wall-clock time) 0.015625 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -267453.120
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 50.641 second
+Computing log-likelihood of 98 initial trees ... 59.718 seconds
+Current best score: -257945.841
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -257815.078
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -257813.313
+Iteration 10 / LogL: -257815.743 / Time: 0h:15m:56s
+Iteration 20 / LogL: -257832.731 / Time: 0h:17m:12s
+Finish initializing candidate tree set (20)
+Current best tree score: -257813.313 / CPU time: 277.039
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -257804.902
+Iteration 30 / LogL: -257825.097 / Time: 0h:18m:29s (0h:42m:30s left)
+Iteration 40 / LogL: -257813.123 / Time: 0h:19m:52s (0h:31m:12s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -257804.624
+Iteration 50 / LogL: -257807.377 / Time: 0h:21m:11s (0h:23m:53s left)
+Log-likelihood cutoff on original alignment: -257975.222
+Iteration 60 / LogL: -257824.468 / Time: 0h:22m:21s (0h:18m:25s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -257804.381
+Iteration 70 / LogL: -260549.185 / Time: 0h:23m:36s (0h:14m:16s left)
+Iteration 80 / LogL: -257808.443 / Time: 0h:24m:57s (0h:10m:54s left)
+Iteration 90 / LogL: -257805.884 / Time: 0h:26m:10s (0h:7m:56s left)
+Iteration 100 / LogL: -257813.023 / Time: 0h:27m:23s (0h:5m:20s left)
+Log-likelihood cutoff on original alignment: -257975.222
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -260238.999 / Time: 0h:28m:36s (0h:19m:11s left)
+Iteration 120 / LogL: -259413.104 / Time: 0h:29m:48s (0h:16m:25s left)
+TREE SEARCH COMPLETED AFTER 125 ITERATIONS / Time: 0h:30m:31s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -257804.381
+2. Current log-likelihood: -257804.346
+3. Current log-likelihood: -257804.308
+4. Current log-likelihood: -257804.297
+5. Current log-likelihood: -257804.287
+Optimal log-likelihood: -257804.272
+Rate parameters:  A-C: 0.89467  A-G: 3.09982  A-T: 0.67281  C-G: 0.97386  C-T: 3.55699  G-T: 1.00000
+Base frequencies:  A: 0.303  C: 0.206  G: 0.216  T: 0.274
+Proportion of invariable sites: 0.173
+Gamma shape alpha: 1.607
+Parameters optimization took 5 rounds (8.508 sec)
+BEST SCORE FOUND : -257804.272
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+135.454 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file C:\Users\Rushe\Desktop\capstone 2025\FASconCAT\cleaned_supermatrix.fas.splits.nex
+Total tree length: 2.145
+
+Total number of iterations: 125
+CPU time used for tree search: 658.641 sec (0h:10m:58s)
+Wall-clock time used for tree search: 1075.685 sec (0h:17m:55s)
+Total CPU time used: 1275.984 sec (0h:21m:15s)
+Total wall-clock time used: 1976.352 sec (0h:32m:56s)
+
+Computing bootstrap consensus tree...
+Reading input file C:\Users\Rushe\Desktop\capstone 2025\FASconCAT\cleaned_supermatrix.fas.splits.nex...
+281 taxa and 798 splits.
+Consensus tree written to C:\Users\Rushe\Desktop\capstone 2025\FASconCAT\cleaned_supermatrix.fas.contree
+Reading input trees file C:\Users\Rushe\Desktop\capstone 2025\FASconCAT\cleaned_supermatrix.fas.contree
+Log-likelihood of consensus tree: -257805.378
+
+Analysis results written to: 
+  IQ-TREE report:                C:\Users\Rushe\Desktop\capstone 2025\FASconCAT\cleaned_supermatrix.fas.iqtree
+  Maximum-likelihood tree:       C:\Users\Rushe\Desktop\capstone 2025\FASconCAT\cleaned_supermatrix.fas.treefile
+  Likelihood distances:          C:\Users\Rushe\Desktop\capstone 2025\FASconCAT\cleaned_supermatrix.fas.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          C:\Users\Rushe\Desktop\capstone 2025\FASconCAT\cleaned_supermatrix.fas.splits.nex
+  Consensus tree:                C:\Users\Rushe\Desktop\capstone 2025\FASconCAT\cleaned_supermatrix.fas.contree
+  Screen log file:               C:\Users\Rushe\Desktop\capstone 2025\FASconCAT\cleaned_supermatrix.fas.log
+
+Date and Time: Thu Mar 27 09:53:14 2025

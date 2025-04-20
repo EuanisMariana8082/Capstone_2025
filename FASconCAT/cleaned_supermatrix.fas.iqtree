@@ -1,0 +1,1307 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: C:\Users\Rushe\Desktop\capstone 2025\FASconCAT\cleaned_supermatrix.fas
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 271077
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 281 sequences with 20024 nucleotide sites
+Number of constant sites: 7214 (= 36.0268% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 7214 (= 36.0268% of all sites)
+Number of parsimony informative sites: 9846
+Number of distinct site patterns: 7368
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+GTR+F+I+G4      -258111.725  517361.451 +        1  517394.794 +        1  521859.217 +        1
+TVM+F+I+G4      -258146.267  517428.534 - 2.71e-015  517461.759 - 2.88e-015  521918.397 - 1.41e-013
+TIM2+F+I+G4     -258170.215  517474.429 - 2.93e-025  517507.535 - 3.3e-025  521956.386 - 7.94e-022
+TPM2u+F+I+G4    -258204.000  517540.000 - 1.69e-039  517572.988 - 2.02e-039  522014.053 - 2.39e-034
+TIM+F+I+G4      -258205.465  517544.930 - 1.44e-040  517578.036 - 1.62e-040  522026.888 - 3.9e-037
+GTR+F+G4        -258204.448  517544.897 - 1.46e-040  517578.121 - 1.55e-040  522034.759 - 7.62e-039
+TIM3+F+I+G4     -258228.043  517590.085 - 2.25e-050  517623.191 - 2.54e-050  522072.042 - 6.1e-047
+K3Pu+F+I+G4     -258241.201  517614.401 - 1.18e-055  517647.389 - 1.41e-055  522088.454 - 1.67e-050
+TN+F+I+G4       -258252.581  517637.163 - 1.35e-060  517670.150 - 1.61e-060  522111.215 - 1.9e-055
+TPM3u+F+I+G4    -258264.694  517661.388 - 7.4e-066  517694.376 - 8.84e-066  522135.441 - 1.04e-060
+HKY+F+I+G4      -258288.368  517706.736 - 1.05e-075  517739.606 - 1.33e-075  522172.884 - 7.73e-069
+K3P+I+G4        -258978.431  519082.862 -        0  519115.497 -        0  523533.201 -        0
+TVMe+I+G4       -258968.597  519067.193 -        0  519100.063 -        0  523533.341 -        0
+SYM+I+G4        -258964.680  519061.360 -        0  519094.348 -        0  523535.413 -        0
+TIMe+I+G4       -258974.646  519077.292 -        0  519110.044 -        0  523535.536 -        0
+TPM3+I+G4       -259002.280  519130.560 -        0  519163.194 -        0  523580.898 -        0
+TIM3e+I+G4      -258998.347  519124.694 -        0  519157.446 -        0  523582.938 -        0
+K2P+I+G4        -259010.793  519145.586 -        0  519178.103 -        0  523588.020 -        0
+TNe+I+G4        -259007.032  519140.063 -        0  519172.698 -        0  523590.402 -        0
+TPM2+I+G4       -259010.713  519147.425 -        0  519180.060 -        0  523597.764 -        0
+TIM2e+I+G4      -259007.038  519142.075 -        0  519174.827 -        0  523600.318 -        0
+GTR+F+I         -259606.203  520348.405 -        0  520381.630 -        0  524838.267 -        0
+GTR+F           -263942.900  529019.799 -        0  529052.905 -        0  533501.757 -        0
+F81+F+I+G4      -265843.883  532815.765 -        0  532848.517 -        0  537274.009 -        0
+JC+I+G4         -266439.245  534000.491 -        0  534032.891 -        0  538435.020 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+G4
+
+Rate parameter R:
+
+  A-C: 0.8947
+  A-G: 3.0998
+  A-T: 0.6728
+  C-G: 0.9739
+  C-T: 3.5570
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3035
+  pi(C) = 0.2065
+  pi(G) = 0.2162
+  pi(T) = 0.2739
+
+Rate matrix Q:
+
+  A   -0.8391    0.1492    0.5411    0.1488
+  C    0.2193    -1.176      0.17    0.7866
+  G    0.7597    0.1624    -1.143    0.2212
+  T    0.1649    0.5931    0.1746   -0.9326
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.1734
+Gamma shape alpha: 1.607
+
+ Category  Relative_rate  Proportion
+  0         0              0.1734
+  1         0.2919         0.2067
+  2         0.7323         0.2067
+  3         1.278          0.2067
+  4         2.537          0.2067
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -257804.2718 (s.e. 1701.2876)
+Unconstrained log-likelihood (without tree): -167174.8314
+Number of free parameters (#branches + #model parameters): 569
+Akaike information criterion (AIC) score: 516746.5437
+Corrected Akaike information criterion (AICc) score: 516779.8870
+Bayesian information criterion (BIC) score: 521244.3105
+
+Total tree length (sum of branch lengths): 2.1451
+Sum of internal branch lengths: 1.0522 (49.0528% of tree length)
+
+WARNING: 9 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Acanthochelys_pallidipectoris' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--Acanthochelys_pallidipectoris
+|
++--Acanthochelys_spixii
+|
+|                                               +--Actinemys_marmorata
+|                                            +--| (99.3/98)
+|                                            |  +--Actinemys_pallida
+|                                         +--| (99.8/73)
+|                                         |  |  +--Terrapene_carolina
+|                                         |  +--| (100/100)
+|                                         |     +--Terrapene_nelsoni
+|                                      +--| (19.6/85)
+|                                      |  |  +--Chrysemys_dorsalis
+|                                      |  +--| (100/72)
+|                                      |     |                      +--Chrysemys_picta
+|                                      |     |                   +--| (99.6/72)
+|                                      |     |                   |  |        +--Clemmys_guttata
+|                                      |     |                   |  |     +--| (27.1/78)
+|                                      |     |                   |  |     |  |  +--Glyptemys_insculpta
+|                                      |     |                   |  |     |  +--| (99.8/100)
+|                                      |     |                   |  |     |     +--Glyptemys_muhlenbergii
+|                                      |     |                   |  |  +--| (100/90)
+|                                      |     |                   |  |  |  |        +--Emydoidea_blandingii
+|                                      |     |                   |  |  |  |     +--| (99.8/100)
+|                                      |     |                   |  |  |  |     |  |  +--Emys_orbicularis
+|                                      |     |                   |  |  |  |     |  +--| (100/100)
+|                                      |     |                   |  |  |  |     |     +--Emys_trinacris
+|                                      |     |                   |  |  |  |  +--| (21.3/62)
+|                                      |     |                   |  |  |  |  |  |     +--Terrapene_coahuila
+|                                      |     |                   |  |  |  |  |  |  +--| (83.6/98)
+|                                      |     |                   |  |  |  |  |  |  |  +--Terrapene_triunguis
+|                                      |     |                   |  |  |  |  |  +--| (100/100)
+|                                      |     |                   |  |  |  |  |     +--Terrapene_ornata
+|                                      |     |                   |  |  |  +--| (85/60)
+|                                      |     |                   |  |  |     +--Emys_marmorata
+|                                      |     |                   |  +--| (80.6/71)
+|                                      |     |                   |     +--Deirochelys_reticularia
+|                                      |     |                +--| (84.4/63)
+|                                      |     |                |  +--Malaclemys_terrapin
+|                                      |     |             +**| (58.4/58)
+|                                      |     |             |  |  +--Graptemys_barbouri
+|                                      |     |             |  +--| (100/100)
+|                                      |     |             |     +--Graptemys_geographica
+|                                      |     |     +-------| (100/98)
+|                                      |     |     |       +--Trachemys_scripta
+|                                      |     |  +--| (69.6/67)
+|                                      |     |  |  |     +--Trachemys_adiutrix
+|                                      |     |  |  |  +--| (92.9/89)
+|                                      |     |  |  |  |  +--Trachemys_gaigeae
+|                                      |     |  |  +--| (99.9/100)
+|                                      |     |  |     |           +--Trachemys_callirostris
+|                                      |     |  |     |        +--| (66.8/99)
+|                                      |     |  |     |        |  +--Trachemys_venusta
+|                                      |     |  |     |     +--| (97.8/99)
+|                                      |     |  |     |     |  +--Trachemys_dorbigni
+|                                      |     |  |     |  +--| (91.2/97)
+|                                      |     |  |     |  |  |     +--Trachemys_emolli
+|                                      |     |  |     |  |  |  +--| (79.4/99)
+|                                      |     |  |     |  |  |  |  +--Trachemys_grayi
+|                                      |     |  |     |  |  +--| (33.9/72)
+|                                      |     |  |     |  |     +--Trachemys_nebulosa
+|                                      |     |  |     +--| (87.5/95)
+|                                      |     |  |        +--Trachemys_taylori
+|                                      |     +--| (100/70)
+|                                      |        |                    +--Graptemys_caglei
+|                                      |        |                 +--| (81.2/99)
+|                                      |        |                 |  +--Graptemys_versa
+|                                      |        |              +--| (26.3/75)
+|                                      |        |              |  |  +--Graptemys_flavimaculata
+|                                      |        |              |  +--| (98.5/100)
+|                                      |        |              |     +--Graptemys_oculifera
+|                                      |        |           +--| (85.9/81)
+|                                      |        |           |  |     +--Graptemys_ernsti
+|                                      |        |           |  |  +--| (98/100)
+|                                      |        |           |  |  |  |  +--Graptemys_gibbonsi
+|                                      |        |           |  |  |  +--| (85.6/100)
+|                                      |        |           |  |  |     +--Graptemys_pearlensis
+|                                      |        |           |  +--| (99.3/87)
+|                                      |        |           |     +--Graptemys_pulchra
+|                                      |        |        +--| (86.9/80)
+|                                      |        |        |  +--Graptemys_pseudogeographica
+|                                      |        |     +--| (100/100)
+|                                      |        |     |  |  +--Graptemys_nigrinoda
+|                                      |        |     |  +--| (89.6/87)
+|                                      |        |     |     +--Graptemys_ouachitensis
+|                                      |        |  +--| (100/100)
+|                                      |        |  |  +--Graptemys_sabinensis
+|                                      |        +--| (72.6/82)
+|                                      |           |                 +--Pseudemys_alabamensis
+|                                      |           |              +**| (0/88)
+|                                      |           |              |  +--Pseudemys_concinna
+|                                      |           |           +--| (99.7/81)
+|                                      |           |           |  |  +--Pseudemys_nelsoni
+|                                      |           |           |  +--| (38.7/76)
+|                                      |           |           |     +--Pseudemys_peninsularis
+|                                      |           |        +--| (88.1/55)
+|                                      |           |        |  |  +--Pseudemys_gorzugi
+|                                      |           |        |  +--| (100/100)
+|                                      |           |        |     +--Pseudemys_texana
+|                                      |           |     +**| (0/43)
+|                                      |           |     |  +--Pseudemys_floridana
+|                                      |           |  +--| (100/100)
+|                                      |           |  |  +--Pseudemys_rubriventris
+|                                      |           +--| (97.4/96)
+|                                      |              |        +--Trachemys_decorata
+|                                      |              |     +--| (100/100)
+|                                      |              |     |  +--Trachemys_stejnegeri
+|                                      |              |  +--| (89.7/100)
+|                                      |              |  |  +--Trachemys_terrapen
+|                                      |              +--| (100/100)
+|                                      |                 +--Trachemys_decussata
+|                                   +--| (91.3/100)
+|                                   |  +**Emys_blandingii
+|                                +--| (99/100)
+|                                |  +--Platysternon_megacephalum
+|                             +--| (100/100)
+|                             |  |                       +--Aldabrachelys_gigantea
+|                             |  |                    +--| (100/100)
+|                             |  |                    |  +--sp._voucher
+|                             |  |                 +--| (100/100)
+|                             |  |                 |  |     +--Astrochelys_radiata
+|                             |  |                 |  |  +--| (100/100)
+|                             |  |                 |  |  |  +--Astrochelys_yniphora
+|                             |  |                 |  +--| (90.9/100)
+|                             |  |                 |     |  +--Pyxis_arachnoides
+|                             |  |                 |     +--| (100/100)
+|                             |  |                 |        +--Pyxis_planicauda
+|                             |  |              +--| (99.6/100)
+|                             |  |              |  |              +--Chelonoidis_abingdonii
+|                             |  |              |  |           +--| (88.1/80)
+|                             |  |              |  |           |  |  +**Chelonoidis_ephippium
+|                             |  |              |  |           |  +--| (86.1/80)
+|                             |  |              |  |           |     +--Chelonoidis_hoodensis
+|                             |  |              |  |        +**| (0/69)
+|                             |  |              |  |        |  +--Chelonoidis_porteri
+|                             |  |              |  |     +--| (100/100)
+|                             |  |              |  |     |  +**Chelonoidis_chathamensis
+|                             |  |              |  |  +--| (98.7/100)
+|                             |  |              |  |  |  +--Chelonoidis_chilensis
+|                             |  |              |  +--| (100/100)
+|                             |  |              |     |  +--Chelonoidis_carbonarius
+|                             |  |              |     +--| (98.8/100)
+|                             |  |              |        +--Chelonoidis_denticulatus
+|                             |  |           +--| (85.8/100)
+|                             |  |           |  |  +--Centrochelys_sulcata
+|                             |  |           |  +--| (100/100)
+|                             |  |           |     |  +--Geochelone_elegans
+|                             |  |           |     +--| (100/100)
+|                             |  |           |        +--Geochelone_platynota
+|                             |  |        +--| (100/100)
+|                             |  |        |  |           +--Chersina_angulata
+|                             |  |        |  |        +--| (99.5/100)
+|                             |  |        |  |        |  |  +--Chersobius_boulengeri
+|                             |  |        |  |        |  +--| (100/100)
+|                             |  |        |  |        |     +--Chersobius_signatus
+|                             |  |        |  |     +--| (98/100)
+|                             |  |        |  |     |  +--Homopus_areolatus
+|                             |  |        |  |  +--| (98.9/100)
+|                             |  |        |  |  |  |     +--Psammobates_oculifer
+|                             |  |        |  |  |  |  +--| (100/100)
+|                             |  |        |  |  |  |  |  |  +--Psammobates_oculiferus
+|                             |  |        |  |  |  |  |  +--| (73.2/97)
+|                             |  |        |  |  |  |  |     +--Psammobates_tentorius
+|                             |  |        |  |  |  +--| (94.6/99)
+|                             |  |        |  |  |     |  +--Psammobates_pardalis
+|                             |  |        |  |  |     +--| (100/100)
+|                             |  |        |  |  |        +--Stigmochelys_pardalis
+|                             |  |        |  +--| (84.8/99)
+|                             |  |        |     |     +--Kinixys_belliana
+|                             |  |        |     |  +--| (100/100)
+|                             |  |        |     |  |  +--Kinixys_spekii
+|                             |  |        |     +--| (100/100)
+|                             |  |        |        |  +--Kinixys_erosa
+|                             |  |        |        +--| (100/100)
+|                             |  |        |           +--Kinixys_homeana
+|                             |  |     +--| (100/100)
+|                             |  |     |  |           +--Indotestudo_elongata
+|                             |  |     |  |        +--| (100/100)
+|                             |  |     |  |        |  +--Indotestudo_travancorica
+|                             |  |     |  |     +--| (100/100)
+|                             |  |     |  |     |  +--Indotestudo_forstenii
+|                             |  |     |  |  +--| (100/100)
+|                             |  |     |  |  |  +--Malacochersus_tornieri
+|                             |  |     |  +--| (100/100)
+|                             |  |     |     |     +--Testudo_graeca
+|                             |  |     |     |  +--| (100/100)
+|                             |  |     |     |  |  |  +--Testudo_kleinmanni
+|                             |  |     |     |  |  +--| (99.6/100)
+|                             |  |     |     |  |     +--Testudo_marginata
+|                             |  |     |     +--| (100/100)
+|                             |  |     |        |  +--Testudo_hermanni
+|                             |  |     |        +--| (84.7/100)
+|                             |  |     |           +--Testudo_horsfieldii
+|                             |  |  +--| (100/100)
+|                             |  |  |  |           +--Gopherus_agassizii
+|                             |  |  |  |        +--| (99.8/100)
+|                             |  |  |  |        |  +--Gopherus_morafkai
+|                             |  |  |  |     +--| (100/100)
+|                             |  |  |  |     |  +--Gopherus_berlandieri
+|                             |  |  |  |  +--| (100/100)
+|                             |  |  |  |  |  |  +--Gopherus_flavomarginatus
+|                             |  |  |  |  |  +--| (100/100)
+|                             |  |  |  |  |     +--Gopherus_polyphemus
+|                             |  |  |  +--| (84.9/99)
+|                             |  |  |     |  +--------Manouria_emys
+|                             |  |  |     +--| (100/100)
+|                             |  |  |        +--Manouria_impressa
+|                             |  +--| (100/100)
+|                             |     |                             +--Batagur_baska
+|                             |     |                          +--| (94.6/100)
+|                             |     |                          |  +--Batagur_kachuga
+|                             |     |                       +--| (90.8/100)
+|                             |     |                       |  +--Batagur_dhongoka
+|                             |     |                    +--| (79.6/100)
+|                             |     |                    |  |  +--Batagur_borneoensis
+|                             |     |                    |  +--| (99.8/100)
+|                             |     |                    |     +--Batagur_trivittata
+|                             |     |                 +--| (87.3/99)
+|                             |     |                 |  +--Hardella_thurjii
+|                             |     |              +--| (100/100)
+|                             |     |              |  |        +--Pangshura_smithii
+|                             |     |              |  |     +--| (98.9/100)
+|                             |     |              |  |     |  +--Pangshura_tentoria
+|                             |     |              |  |  +--| (97/100)
+|                             |     |              |  |  |  +--Pangshura_tecta
+|                             |     |              |  +--| (100/100)
+|                             |     |              |     +--Pangshura_sylhetensis
+|                             |     |           +--| (99.5/100)
+|                             |     |           |  |  +--Morenia_ocellata
+|                             |     |           |  +--| (100/100)
+|                             |     |           |     +--Morenia_petersi
+|                             |     |        +--| (100/100)
+|                             |     |        |  +--Geoclemys_hamiltonii
+|                             |     |     +--| (100/100)
+|                             |     |     |  |  +--Malayemys_subtrijuga
+|                             |     |     |  +--| (100/100)
+|                             |     |     |     +--Orlitia_borneensis
+|                             |     |  +--| (100/100)
+|                             |     |  |  |  +--Siebenrockiella_crassicollis
+|                             |     |  |  +--| (100/100)
+|                             |     |  |     +--Siebenrockiella_leytensis
+|                             |     +--| (100/100)
+|                             |        |                    +--Cyclemys_atripons
+|                             |        |                 +--| (100/100)
+|                             |        |                 |  |     +--Cyclemys_dentata
+|                             |        |                 |  |  +**| (0/87)
+|                             |        |                 |  |  |  |     +--Cyclemys_fusca
+|                             |        |                 |  |  |  |  +--| (73.2/97)
+|                             |        |                 |  |  |  |  |  +--Cyclemys_oldhamii
+|                             |        |                 |  |  |  +--| (97.4/100)
+|                             |        |                 |  |  |     +--Cyclemys_oldhami
+|                             |        |                 |  +--| (22.6/87)
+|                             |        |                 |     +**sp._fusca
+|                             |        |              +--| (92.9/96)
+|                             |        |              |  |        +--Heosemys_annandalii
+|                             |        |              |  |     +--| (99.3/100)
+|                             |        |              |  |     |  +--Heosemys_grandis
+|                             |        |              |  |  +--| (100/100)
+|                             |        |              |  |  |  +--Heosemys_depressa
+|                             |        |              |  +--| (99.8/100)
+|                             |        |              |     +--Heosemys_spinosa
+|                             |        |           +--| (0.6/68)
+|                             |        |           |  |  +--Sacalia_bealei
+|                             |        |           |  +--| (100/100)
+|                             |        |           |     +--Sacalia_quadriocellata
+|                             |        |        +--| (92.7/94)
+|                             |        |        |  |  +--Leucocephalon_yuwonoi
+|                             |        |        |  +--| (99.9/95)
+|                             |        |        |     +--Notochelys_platynota
+|                             |        |     +--| (100/99)
+|                             |        |     |  |  +--Melanochelys_trijuga
+|                             |        |     |  +--| (100/100)
+|                             |        |     |     +--Vijayachelys_silvatica
+|                             |        |  +--| (68.6/99)
+|                             |        |  |  |     +--Geoemyda_japonica
+|                             |        |  |  |  +--| (100/100)
+|                             |        |  |  |  |  +--Geoemyda_spengleri
+|                             |        |  |  +--| (83.6/99)
+|                             |        |  |     |     +--Mauremys_annamensis
+|                             |        |  |     |  +--| (100/99)
+|                             |        |  |     |  |  |  +**Mauremys_cf.
+|                             |        |  |     |  |  +--| (91.8/99)
+|                             |        |  |     |  |     +--------Mauremys_mutica
+|                             |        |  |     +--| (99.9/99)
+|                             |        |  |        |           +--Mauremys_caspica
+|                             |        |  |        |        +--| (100/100)
+|                             |        |  |        |        |  +--Mauremys_rivulata
+|                             |        |  |        |     +--| (100/100)
+|                             |        |  |        |     |  +--Mauremys_leprosa
+|                             |        |  |        |  +--| (100/100)
+|                             |        |  |        |  |  +--Mauremys_japonica
+|                             |        |  |        +--| (100/100)
+|                             |        |  |           |     +--Mauremys_nigricans
+|                             |        |  |           |  +--| (100/100)
+|                             |        |  |           |  |  +--Mauremys_reevesii
+|                             |        |  |           +--| (70.9/97)
+|                             |        |  |              +--Mauremys_sinensis
+|                             |        +--| (99.6/100)
+|                             |           |        +--Rhinoclemmys_annulata
+|                             |           |     +--| (98/100)
+|                             |           |     |  +--Rhinoclemmys_pulcherrima
+|                             |           |  +--| (53.9/99)
+|                             |           |  |  +--Rhinoclemmys_rubida
+|                             |           +--| (100/100)
+|                             |              |  +--Rhinoclemmys_areolata
+|                             |              +--| (99.8/100)
+|                             |                 |     +--Rhinoclemmys_diademata
+|                             |                 |  +--| (99.4/100)
+|                             |                 |  |  +--Rhinoclemmys_punctularia
+|                             |                 +--| (99.8/100)
+|                             |                    |  +--Rhinoclemmys_funerea
+|                             |                    +**| (0/67)
+|                             |                       +--Rhinoclemmys_melanosterna
+|                          +--| (100/100)
+|                          |  |              +--Caretta_caretta
+|                          |  |           +--| (94/100)
+|                          |  |           |  +--Lepidochelys_olivacea
+|                          |  |        +--| (100/100)
+|                          |  |        |  +--Eretmochelys_imbricata
+|                          |  |     +--| (100/100)
+|                          |  |     |  +--Chelonia_mydas
+|                          |  |  +--| (100/100)
+|                          |  |  |  +---Dermochelys_coriacea
+|                          |  +--| (100/100)
+|                          |     |            +--Chelydra_acutirostris
+|                          |     |         +--| (97.5/100)
+|                          |     |         |  +--Chelydra_rossignonii
+|                          |     |      +--| (100/100)
+|                          |     |      |  +--Chelydra_serpentina
+|                          |     |  +---| (100/100)
+|                          |     |  |   +--Macrochelys_temminckii
+|                          |     +--| (100/100)
+|                          |        |        +--Claudius_angustatus
+|                          |        |     +--| (100/100)
+|                          |        |     |  |  +--Staurotypus_salvinii
+|                          |        |     |  +--| (100/100)
+|                          |        |     |     +--Staurotypus_triporcatus
+|                          |        |  +--| (100/100)
+|                          |        |  |  |                 +**Cryptochelys_acuta
+|                          |        |  |  |              +--| (100/100)
+|                          |        |  |  |              |  |  +--Cryptochelys_creaseri
+|                          |        |  |  |              |  +--| (96.7/100)
+|                          |        |  |  |              |     +--Kinosternon_creaseri
+|                          |        |  |  |           +--| (39.2/84)
+|                          |        |  |  |           |  |  +--Cryptochelys_herrerai
+|                          |        |  |  |           |  +--| (96.6/100)
+|                          |        |  |  |           |     +**Kinosternon_herrerai
+|                          |        |  |  |        +--| (98.8/60)
+|                          |        |  |  |        |  |     +--Kinosternon_acutum
+|                          |        |  |  |        |  |  +--| (69.2/32)
+|                          |        |  |  |        |  |  |  +**Kinosternon_scorpioides
+|                          |        |  |  |        |  +--| (99.9/48)
+|                          |        |  |  |        |     |     +--Kinosternon_chimalhuaca
+|                          |        |  |  |        |     |  +--| (83.9/74)
+|                          |        |  |  |        |     |  |  +--Kinosternon_oaxacae
+|                          |        |  |  |        |     +--| (86.7/87)
+|                          |        |  |  |        |        |     +--Kinosternon_hirtipes
+|                          |        |  |  |        |        |  +--| (70.4/93)
+|                          |        |  |  |        |        |  |  +--Kinosternon_sonoriense
+|                          |        |  |  |        |        +**| (0/57)
+|                          |        |  |  |        |           +--Kinosternon_integrum
+|                          |        |  |  |     +--| (100/71)
+|                          |        |  |  |     |  |     +**Cryptochelys_dunni
+|                          |        |  |  |     |  |  +--| (100/100)
+|                          |        |  |  |     |  |  |  +**Kinosternon_dunni
+|                          |        |  |  |     |  +--| (100/100)
+|                          |        |  |  |     |     |  +**Cryptochelys_leucostomum
+|                          |        |  |  |     |     +--| (100/100)
+|                          |        |  |  |     |        +**Kinosternon_leucostomum
+|                          |        |  |  |  +--| (100/100)
+|                          |        |  |  |  |  |           +--Kinosternon_arizonense
+|                          |        |  |  |  |  |        +--| (100/100)
+|                          |        |  |  |  |  |        |  +--Kinosternon_flavescens
+|                          |        |  |  |  |  |     +**| (0/84)
+|                          |        |  |  |  |  |     |  +--Kinosternon_durangoense
+|                          |        |  |  |  |  |  +--| (90.2/98)
+|                          |        |  |  |  |  |  |  +--Kinosternon_stejnegeri
+|                          |        |  |  |  |  +--| (99.5/93)
+|                          |        |  |  |  |     |  +--Kinosternon_baurii
+|                          |        |  |  |  |     +--| (100/100)
+|                          |        |  |  |  |        +--Kinosternon_subrubrum
+|                          |        |  |  +--| (100/100)
+|                          |        |  |     |     +--Sternotherus_carinatus
+|                          |        |  |     |  +--| (98.9/100)
+|                          |        |  |     |  |  +--Sternotherus_odoratus
+|                          |        |  |     +--| (100/100)
+|                          |        |  |        |  +--Sternotherus_depressus
+|                          |        |  |        +--| (99.6/100)
+|                          |        |  |           +--Sternotherus_minor
+|                          |        +--| (100/100)
+|                          |           +-------Dermatemys_mawii
+|                  +-------| (100/100)
+|                  |       |                                   +--Amyda_cartilaginea
+|                  |       |                                +--| (100/100)
+|                  |       |                                |  |     +--Nilssonia_formosa
+|                  |       |                                |  |  +--| (67.8/100)
+|                  |       |                                |  |  |  +--Nilssonia_hurum
+|                  |       |                                |  +--| (100/100)
+|                  |       |                                |     +--Nilssonia_gangetica
+|                  |       |                             +--| (100/100)
+|                  |       |                             |  +--Dogania_subplana
+|                  |       |                          +--| (100/100)
+|                  |       |                          |  +--Palea_steindachneri
+|                  |       |                       +--| (100/100)
+|                  |       |                       |  +--Pelodiscus_sinensis
+|                  |       |                    +--| (100/100)
+|                  |       |                    |  |     +--Apalone_ferox
+|                  |       |                    |  |  +--| (99/100)
+|                  |       |                    |  |  |  +--Apalone_spinifera
+|                  |       |                    |  +--| (100/100)
+|                  |       |                    |     +--Apalone_mutica
+|                  |       |                +---| (100/100)
+|                  |       |                |   |           +--Chitra_chitra
+|                  |       |                |   |        +--| (89.4/100)
+|                  |       |                |   |        |  +--Chitra_vandijki
+|                  |       |                |   |     +--| (100/100)
+|                  |       |                |   |     |  +--Chitra_indica
+|                  |       |                |   |  +--| (100/100)
+|                  |       |                |   |  |  |  +--Pelochelys_bibroni
+|                  |       |                |   |  |  +--| (100/100)
+|                  |       |                |   |  |     +--Pelochelys_cantorii
+|                  |       |                |   +--| (100/100)
+|                  |       |                |      +--Trionyx_triunguis
+|                  |       |    +-----------| (100/100)
+|                  |       |    |           |                  +--Cyclanorbis_senegalensis
+|                  |       |    |           |               +--| (71.7/100)
+|                  |       |    |           |               |  |  +--Cycloderma_aubryi
+|                  |       |    |           |               |  +--| (97.3/100)
+|                  |       |    |           |               |     +--Cycloderma_frenatum
+|                  |       |    |           +---------------| (100/100)
+|                  |       |    |                           |  +--Lissemys_punctata
+|                  |       |    |                           +--| (100/100)
+|                  |       |    |                              +--Lissemys_scutata
+|                  |       +----| (100/100)
+|                  |            +--------------------------Carettochelys_insculpta
+|              +---| (100/100)
+|              |   |                 +-----------Erymnochelys_madagascariensis
+|              |   |              +--| (94.1/96)
+|              |   |              |  |                   +--Podocnemis_erythrocephala
+|              |   |              |  |                +--| (97.2/100)
+|              |   |              |  |                |  +--Podocnemis_sextuberculata
+|              |   |              |  |             +--| (86.1/100)
+|              |   |              |  |             |  +--Podocnemis_unifilis
+|              |   |              |  |          +--| (94.9/100)
+|              |   |              |  |          |  +--Podocnemis_expansa
+|              |   |              |  +----------| (100/100)
+|              |   |              |             +---Podocnemis_vogli
+|              |   |       +------| (100/100)
+|              |   |       |      +--------Peltocephalus_dumerilianus
+|              |   +-------| (100/100)
+|              |           |           +--Pelomedusa_subrufa
+|              |           +-----------| (100/100)
+|              |                       |                 +--Pelusios_adansonii
+|              |                       |              +--| (98.5/100)
+|              |                       |              |  +--Pelusios_broadleyi
+|              |                       |           +--| (100/100)
+|              |                       |           |  |  +--Pelusios_castaneus
+|              |                       |           |  +--| (98.6/100)
+|              |                       |           |     +--Pelusios_chapini
+|              |                       |        +--| (39.6/99)
+|              |                       |        |  +--Pelusios_castanoides
+|              |                       |     +--| (99.9/100)
+|              |                       |     |  |  +--Pelusios_carinatus
+|              |                       |     |  +--| (100/100)
+|              |                       |     |     +--Pelusios_rhodesianus
+|              |                       |  +--| (94.1/100)
+|              |                       |  |  |     +--Pelusios_bechuanicus
+|              |                       |  |  |  +--| (100/100)
+|              |                       |  |  |  |  +--Pelusios_subniger
+|              |                       |  |  +--| (97.2/100)
+|              |                       |  |     +--Pelusios_sinuatus
+|              |                       +--| (100/100)
+|              |                          |  +--Pelusios_gabonensis
+|              |                          +--| (79/99)
+|              |                             +--Pelusios_niger
+|           +--| (100/100)
+|           |  |             +--Chelodina_burrungandjii
+|           |  |          +--| (96/99)
+|           |  |          |  +--Chelodina_parkeri
+|           |  |       +--| (100/99)
+|           |  |       |  +--Chelodina_expansa
+|           |  |    +**| (0/85)
+|           |  |    |  |           +--Chelodina_canni
+|           |  |    |  |        +--| (22.8/64)
+|           |  |    |  |        |  |        +--Chelodina_gunaleni
+|           |  |    |  |        |  |     +--| (85.4/62)
+|           |  |    |  |        |  |     |  +--Chelodina_novaeguineae
+|           |  |    |  |        |  |  +--| (96.7/62)
+|           |  |    |  |        |  |  |  +--Chelodina_reimanni
+|           |  |    |  |        |  +--| (72.8/99)
+|           |  |    |  |        |     +--Chelodina_pritchardi
+|           |  |    |  |     +--| (99.9/100)
+|           |  |    |  |     |  +--Chelodina_mccordi
+|           |  |    |  |  +--| (99.6/100)
+|           |  |    |  |  |  +--Chelodina_steindachneri
+|           |  |    |  +--| (100/100)
+|           |  |    |     +--Chelodina_longicollis
+|           |  +----| (100/100)
+|           |       |           +--Chelodina_colliei
+|           |       |        +--| (91.1/99)
+|           |       |        |  |              +--Elseya_albagula
+|           |       |        |  |           +--| (100/100)
+|           |       |        |  |           |  |  +--Elseya_irwini
+|           |       |        |  |           |  +--| (99.9/100)
+|           |       |        |  |           |     +--Elseya_lavarackorum
+|           |       |        |  |        +--| (100/100)
+|           |       |        |  |        |  |        +--Elseya_branderhorsti
+|           |       |        |  |        |  |     +--| (32.3/98)
+|           |       |        |  |        |  |     |  +--Elseya_dentata
+|           |       |        |  |        |  |  +--| (100/100)
+|           |       |        |  |        |  |  |  +--sp._Sth
+|           |       |        |  |        |  +--| (99.9/100)
+|           |       |        |  |        |     +--Elseya_novaeguineae
+|           |       |        |  |     +--| (100/100)
+|           |       |        |  |     |  |     +--Elusor_macrurus
+|           |       |        |  |     |  |  +--| (6/74)
+|           |       |        |  |     |  |  |  |  +--Emydura_macquarii
+|           |       |        |  |     |  |  |  +--| (100/100)
+|           |       |        |  |     |  |  |     |     +--Emydura_subglobosa
+|           |       |        |  |     |  |  |     |  +--| (94.6/100)
+|           |       |        |  |     |  |  |     |  |  +--Emydura_tanybaraga
+|           |       |        |  |     |  |  |     +--| (99.7/100)
+|           |       |        |  |     |  |  |        +--Emydura_victoriae
+|           |       |        |  |     |  +--| (96.6/100)
+|           |       |        |  |     |     +--Rheodytes_leukops
+|           |       |        |  +-----| (100/100)
+|           |       |        |        |        +--Myuchelys_bellii
+|           |       |        |        |     +--| (65.9/95)
+|           |       |        |        |     |  +--Myuchelys_georgesi
+|           |       |        |        |  +--| (94.8/95)
+|           |       |        |        |  |  +--Myuchelys_latisternum
+|           |       |        |        +--| (100/100)
+|           |       |        |           +--Myuchelys_purvisi
+|           |       +--------| (100/100)
+|           |                +--Chelodina_oblonga
+|        +--| (100/100)
+|        |  +----Hydromedusa_tectifera
+|     +--| (100/100)
+|     |  |           +--Mesoclemmys_gibba
+|     |  |        +--| (100/100)
+|     |  |        |  |  +--Mesoclemmys_nasuta
+|     |  |        |  +--| (98.6/100)
+|     |  |        |     +--Mesoclemmys_zuliae
+|     |  |     +--| (83.6/99)
+|     |  |     |  |        +**Phrynops_geoffroanus
+|     |  |     |  |     +--| (100/100)
+|     |  |     |  |     |  +--Phrynops_tuberosus
+|     |  |     |  |  +--| (96.2/100)
+|     |  |     |  |  |  +--Phrynops_williamsi
+|     |  |     |  +--| (100/100)
+|     |  |     |     +--Phrynops_hilarii
+|     |  |  +--| (61.4/93)
+|     |  |  |  +--Mesoclemmys_hogei
+|     |  +--| (97.7/100)
+|     |     +--Ranacephala_hogei
+|  +--| (99.8/100)
+|  |  |  +--Chelus_fimbriata
+|  |  +--| (97.7/100)
+|  |     +**Chelus_fimbriatus
++--| (100/100)
+   +--Platemys_platycephala
+
+Tree in newick format:
+
+(Acanthochelys_pallidipectoris:0.0008180087,Acanthochelys_spixii:0.0023309305,((((((((((((((Actinemys_marmorata:0.0028892626,Actinemys_pallida:0.0016660708)99.3/98:0.0015490753,(Terrapene_carolina:0.0015179901,Terrapene_nelsoni:0.0038624090)100/100:0.0015886389)99.8/73:0.0011325714,(Chrysemys_dorsalis:0.0031736540,((((((Chrysemys_picta:0.0036221749,(((Clemmys_guttata:0.0058224116,(Glyptemys_insculpta:0.0030521747,Glyptemys_muhlenbergii:0.0028126818)99.8/100:0.0010918552)27.1/78:0.0003060266,(((Emydoidea_blandingii:0.0014380618,(Emys_orbicularis:0.0002508622,Emys_trinacris:0.0010469167)100/100:0.0022771387)99.8/100:0.0008802454,((Terrapene_coahuila:0.0016395164,Terrapene_triunguis:0.0015882390)83.6/98:0.0006009620,Terrapene_ornata:0.0022174692)100/100:0.0014420116)21.3/62:0.0002569953,Emys_marmorata:0.0022939583)85/60:0.0001364988)100/90:0.0069804018,Deirochelys_reticularia:0.0066719593)80.6/71:0.0009653478)99.6/72:0.0010725182,Malaclemys_terrapin:0.0037180411)84.4/63:0.0005572196,(Graptemys_barbouri:0.0031205747,Graptemys_geographica:0.0019392515)100/100:0.0016850428)58.4/58:0.0000207986,Trachemys_scripta:0.0026113084)100/98:0.0318756943,((Trachemys_adiutrix:0.0008769124,Trachemys_gaigeae:0.0014144453)92.9/89:0.0004676829,((((Trachemys_callirostris:0.0017178315,Trachemys_venusta:0.0006680672)66.8/99:0.0003155540,Trachemys_dorbigni:0.0014989348)97.8/99:0.0007137971,((Trachemys_emolli:0.0001217747,Trachemys_grayi:0.0005967965)79.4/99:0.0005282663,Trachemys_nebulosa:0.0030482565)33.9/72:0.0002950353)91.2/97:0.0007254365,Trachemys_taylori:0.0007643589)87.5/95:0.0005498756)99.9/100:0.0011503413)69.6/67:0.0000698100,(((((((Graptemys_caglei:0.0015730138,Graptemys_versa:0.0006735648)81.2/99:0.0002580620,(Graptemys_flavimaculata:0.0006791258,Graptemys_oculifera:0.0006340504)98.5/100:0.0007642864)26.3/75:0.0003592942,((Graptemys_ernsti:0.0006854100,(Graptemys_gibbonsi:0.0004033047,Graptemys_pearlensis:0.0007247742)85.6/100:0.0001730664)98/100:0.0003703167,Graptemys_pulchra:0.0003215198)99.3/87:0.0006072488)85.9/81:0.0001579909,Graptemys_pseudogeographica:0.0005405037)86.9/80:0.0001598134,(Graptemys_nigrinoda:0.0011297586,Graptemys_ouachitensis:0.0006375364)89.6/87:0.0002065097)100/100:0.0018876085,Graptemys_sabinensis:0.0010586545)100/100:0.0013420373,((((((Pseudemys_alabamensis:0.0009271732,Pseudemys_concinna:0.0012552521)0/88:0.0000020234,(Pseudemys_nelsoni:0.0006990715,Pseudemys_peninsularis:0.0021861333)38.7/76:0.0001754554)99.7/81:0.0008509949,(Pseudemys_gorzugi:0.0004068862,Pseudemys_texana:0.0009181301)100/100:0.0012017105)88.1/55:0.0003314751,Pseudemys_floridana:0.0013758352)0/43:0.0000022243,Pseudemys_rubriventris:0.0009638077)100/100:0.0018576359,(((Trachemys_decorata:0.0004127240,Trachemys_stejnegeri:0.0005322007)100/100:0.0008812576,Trachemys_terrapen:0.0011276072)89.7/100:0.0003592915,Trachemys_decussata:0.0003788600)100/100:0.0026857787)97.4/96:0.0005883164)72.6/82:0.0002594932)100/70:0.0018275458)100/72:0.0058151142)19.6/85:0.0008359094,Emys_blandingii:0.0000022681)91.3/100:0.0051244206,Platysternon_megacephalum:0.0110668768)99/100:0.0012192269,((((((((Aldabrachelys_gigantea:0.0002779115,sp._voucher:0.0086261193)100/100:0.0032099613,((Astrochelys_radiata:0.0024165212,Astrochelys_yniphora:0.0042198965)100/100:0.0015887952,(Pyxis_arachnoides:0.0027258577,Pyxis_planicauda:0.0042076328)100/100:0.0059009414)90.9/100:0.0002147667)100/100:0.0017469422,(((((Chelonoidis_abingdonii:0.0003089531,(Chelonoidis_ephippium:0.0000025534,Chelonoidis_hoodensis:0.0002062200)86.1/80:0.0001003803)88.1/80:0.0001024055,Chelonoidis_porteri:0.0002053631)0/69:0.0000021639,Chelonoidis_chathamensis:0.0000010033)100/100:0.0036722596,Chelonoidis_chilensis:0.0045080820)98.7/100:0.0006289827,(Chelonoidis_carbonarius:0.0035240187,Chelonoidis_denticulatus:0.0029659544)98.8/100:0.0005250883)100/100:0.0014324816)99.6/100:0.0007765953,(Centrochelys_sulcata:0.0048175450,(Geochelone_elegans:0.0015363557,Geochelone_platynota:0.0009642359)100/100:0.0038075736)100/100:0.0023382140)85.8/100:0.0002436895,((((Chersina_angulata:0.0099162258,(Chersobius_boulengeri:0.0017834046,Chersobius_signatus:0.0020269457)100/100:0.0022869588)99.5/100:0.0011284709,Homopus_areolatus:0.0086956758)98/100:0.0006326588,((Psammobates_oculifer:0.0035939885,(Psammobates_oculiferus:0.0043926183,Psammobates_tentorius:0.0044760542)73.2/97:0.0011293082)100/100:0.0037941957,(Psammobates_pardalis:0.0002261773,Stigmochelys_pardalis:0.0006858815)100/100:0.0067967907)94.6/99:0.0003723216)98.9/100:0.0004927356,((Kinixys_belliana:0.0005228555,Kinixys_spekii:0.0002501823)100/100:0.0033929800,(Kinixys_erosa:0.0004271979,Kinixys_homeana:0.0005294800)100/100:0.0026985113)100/100:0.0066104123)84.8/99:0.0001251589)100/100:0.0047593945,((((Indotestudo_elongata:0.0018376877,Indotestudo_travancorica:0.0014678799)100/100:0.0022180625,Indotestudo_forstenii:0.0038814500)100/100:0.0024912260,Malacochersus_tornieri:0.0088590289)100/100:0.0022627449,((Testudo_graeca:0.0037721970,(Testudo_kleinmanni:0.0085008878,Testudo_marginata:0.0031891390)99.6/100:0.0011234103)100/100:0.0038145086,(Testudo_hermanni:0.0043684354,Testudo_horsfieldii:0.0044681738)84.7/100:0.0003085437)100/100:0.0035398588)100/100:0.0029964308)100/100:0.0036053620,((((Gopherus_agassizii:0.0015257050,Gopherus_morafkai:0.0017176210)99.8/100:0.0010100416,Gopherus_berlandieri:0.0021886455)100/100:0.0031355871,(Gopherus_flavomarginatus:0.0011256441,Gopherus_polyphemus:0.0036326544)100/100:0.0023734432)100/100:0.0057348737,(Manouria_emys:0.0337510855,Manouria_impressa:0.0076988273)100/100:0.0036866041)84.9/99:0.0005980029)100/100:0.0057223148,((((((((((Batagur_baska:0.0010870517,Batagur_kachuga:0.0023338811)94.6/100:0.0006262049,Batagur_dhongoka:0.0024437376)90.8/100:0.0004263750,(Batagur_borneoensis:0.0020280918,Batagur_trivittata:0.0017898593)99.8/100:0.0007798816)79.6/100:0.0001217062,Hardella_thurjii:0.0040344355)87.3/99:0.0004379152,(((Pangshura_smithii:0.0011628239,Pangshura_tentoria:0.0014750169)98.9/100:0.0013134621,Pangshura_tecta:0.0016401951)97/100:0.0008073667,Pangshura_sylhetensis:0.0022184567)100/100:0.0022447237)100/100:0.0033577880,(Morenia_ocellata:0.0051311547,Morenia_petersi:0.0028872046)100/100:0.0055062402)99.5/100:0.0012886560,Geoclemys_hamiltonii:0.0084871655)100/100:0.0027832790,(Malayemys_subtrijuga:0.0118312524,Orlitia_borneensis:0.0038922440)100/100:0.0043767032)100/100:0.0049871056,(Siebenrockiella_crassicollis:0.0081157173,Siebenrockiella_leytensis:0.0066332373)100/100:0.0061785405)100/100:0.0019763602,(((((((Cyclemys_atripons:0.0017547730,((Cyclemys_dentata:0.0017090744,((Cyclemys_fusca:0.0021021260,Cyclemys_oldhamii:0.0017918137)73.2/97:0.0005586430,Cyclemys_oldhami:0.0006628665)97.4/100:0.0008587220)0/87:0.0000011348,sp._fusca:0.0000010033)22.6/87:0.0005929916)100/100:0.0033577368,(((Heosemys_annandalii:0.0028187456,Heosemys_grandis:0.0024253842)99.3/100:0.0009517299,Heosemys_depressa:0.0040406414)100/100:0.0026307247,Heosemys_spinosa:0.0073511769)99.8/100:0.0014091988)92.9/96:0.0005492035,(Sacalia_bealei:0.0008703252,Sacalia_quadriocellata:0.0021911397)100/100:0.0054115086)0.6/68:0.0002579351,(Leucocephalon_yuwonoi:0.0081818245,Notochelys_platynota:0.0091198108)99.9/95:0.0011546335)92.7/94:0.0004246572,(Melanochelys_trijuga:0.0063165846,Vijayachelys_silvatica:0.0074012292)100/100:0.0025834801)100/99:0.0017252880,((Geoemyda_japonica:0.0024196131,Geoemyda_spengleri:0.0034939782)100/100:0.0031312451,((Mauremys_annamensis:0.0025975855,(Mauremys_cf.:0.0000026479,Mauremys_mutica:0.0332768897)91.8/99:0.0111841222)100/99:0.0028225719,((((Mauremys_caspica:0.0017577693,Mauremys_rivulata:0.0019424440)100/100:0.0020174528,Mauremys_leprosa:0.0026757432)100/100:0.0017928247,Mauremys_japonica:0.0020658587)100/100:0.0008655518,((Mauremys_nigricans:0.0013626825,Mauremys_reevesii:0.0013820688)100/100:0.0020706470,Mauremys_sinensis:0.0039771689)70.9/97:0.0003447885)100/100:0.0037760443)99.9/99:0.0013003645)83.6/99:0.0002499446)68.6/99:0.0002348529,(((Rhinoclemmys_annulata:0.0011596281,Rhinoclemmys_pulcherrima:0.0027603328)98/100:0.0006310308,Rhinoclemmys_rubida:0.0045409777)53.9/99:0.0003013556,(Rhinoclemmys_areolata:0.0026241971,((Rhinoclemmys_diademata:0.0005521971,Rhinoclemmys_punctularia:0.0007490508)99.4/100:0.0008293484,(Rhinoclemmys_funerea:0.0012002949,Rhinoclemmys_melanosterna:0.0007004443)0/67:0.0000025851)99.8/100:0.0009047417)99.8/100:0.0008266434)100/100:0.0140619529)99.6/100:0.0007977669)100/100:0.0021912220)100/100:0.0108441731)100/100:0.0052498280,(((((Caretta_caretta:0.0020406534,Lepidochelys_olivacea:0.0036579167)94/100:0.0005299271,Eretmochelys_imbricata:0.0039360964)100/100:0.0042461940,Chelonia_mydas:0.0057509422)100/100:0.0067948520,Dermochelys_coriacea:0.0176410391)100/100:0.0121617158,((((Chelydra_acutirostris:0.0010426058,Chelydra_rossignonii:0.0009945400)97.5/100:0.0004502338,Chelydra_serpentina:0.0013206473)100/100:0.0033634857,Macrochelys_temminckii:0.0052018458)100/100:0.0150698241,(((Claudius_angustatus:0.0057421986,(Staurotypus_salvinii:0.0013590583,Staurotypus_triporcatus:0.0008174261)100/100:0.0034953290)100/100:0.0134058294,((((((Cryptochelys_acuta:0.0000024162,(Cryptochelys_creaseri:0.0004880278,Kinosternon_creaseri:0.0001937421)96.7/100:0.0003430467)100/100:0.0023109934,(Cryptochelys_herrerai:0.0014389447,Kinosternon_herrerai:0.0000028434)96.6/100:0.0014602354)39.2/84:0.0005483059,((Kinosternon_acutum:0.0002612477,Kinosternon_scorpioides:0.0000023658)69.2/32:0.0014292717,((Kinosternon_chimalhuaca:0.0016735392,Kinosternon_oaxacae:0.0008223618)83.9/74:0.0001094216,((Kinosternon_hirtipes:0.0013358172,Kinosternon_sonoriense:0.0013449577)70.4/93:0.0002222034,Kinosternon_integrum:0.0018973078)0/57:0.0000026961)86.7/87:0.0001088937)99.9/48:0.0012993176)98.8/60:0.0007843587,((Cryptochelys_dunni:0.0000021704,Kinosternon_dunni:0.0000025673)100/100:0.0028939720,(Cryptochelys_leucostomum:0.0000020538,Kinosternon_leucostomum:0.0000028569)100/100:0.0018912611)100/100:0.0012414949)100/71:0.0020705609,((((Kinosternon_arizonense:0.0001408646,Kinosternon_flavescens:0.0003042139)100/100:0.0010634568,Kinosternon_durangoense:0.0022044948)0/84:0.0000026226,Kinosternon_stejnegeri:0.0020827378)90.2/98:0.0010814147,(Kinosternon_baurii:0.0048060003,Kinosternon_subrubrum:0.0014189774)100/100:0.0065127037)99.5/93:0.0029811879)100/100:0.0017023860,((Sternotherus_carinatus:0.0038086683,Sternotherus_odoratus:0.0023706157)98.9/100:0.0012157406,(Sternotherus_depressus:0.0046149448,Sternotherus_minor:0.0023350790)99.6/100:0.0011009031)100/100:0.0036662300)100/100:0.0062125124)100/100:0.0131678852,Dermatemys_mawii:0.0314667630)100/100:0.0138965932)100/100:0.0034492398)100/100:0.0030096524)100/100:0.0143146577,((((((((Amyda_cartilaginea:0.0042077302,((Nilssonia_formosa:0.0028492852,Nilssonia_hurum:0.0028929819)67.8/100:0.0003504104,Nilssonia_gangetica:0.0050649042)100/100:0.0020442303)100/100:0.0042933581,Dogania_subplana:0.0121225494)100/100:0.0028689785,Palea_steindachneri:0.0087219736)100/100:0.0016007084,Pelodiscus_sinensis:0.0136373299)100/100:0.0043429580,((Apalone_ferox:0.0103271908,Apalone_spinifera:0.0030665381)99/100:0.0023116308,Apalone_mutica:0.0040780972)100/100:0.0119896891)100/100:0.0022977399,((((Chitra_chitra:0.0017452212,Chitra_vandijki:0.0009402452)89.4/100:0.0002609093,Chitra_indica:0.0015072867)100/100:0.0058686509,(Pelochelys_bibroni:0.0009931835,Pelochelys_cantorii:0.0016651418)100/100:0.0051080338)100/100:0.0037661284,Trionyx_triunguis:0.0097797953)100/100:0.0036783931)100/100:0.0174514105,((Cyclanorbis_senegalensis:0.0063737710,(Cycloderma_aubryi:0.0041870028,Cycloderma_frenatum:0.0050403142)97.3/100:0.0012328246)71.7/100:0.0006580272,(Lissemys_punctata:0.0040703017,Lissemys_scutata:0.0049921982)100/100:0.0054345945)100/100:0.0604074736)100/100:0.0468766577,Carettochelys_insculpta:0.0993939337)100/100:0.0187992813)100/100:0.0313309974,(((Erymnochelys_madagascariensis:0.0452638922,((((Podocnemis_erythrocephala:0.0041471026,Podocnemis_sextuberculata:0.0053782022)97.2/100:0.0013508719,Podocnemis_unifilis:0.0067151092)86.1/100:0.0005564872,Podocnemis_expansa:0.0081909701)94.9/100:0.0042462407,Podocnemis_vogli:0.0156739970)100/100:0.0414186122)94.1/96:0.0022638198,Peltocephalus_dumerilianus:0.0352897902)100/100:0.0266711869,(Pelomedusa_subrufa:0.0126297317,((((((Pelusios_adansonii:0.0133552653,Pelusios_broadleyi:0.0051770189)98.5/100:0.0010906526,(Pelusios_castaneus:0.0036786736,Pelusios_chapini:0.0016336452)98.6/100:0.0008494253)100/100:0.0024335380,Pelusios_castanoides:0.0044809427)39.6/99:0.0004198273,(Pelusios_carinatus:0.0025258958,Pelusios_rhodesianus:0.0017843196)100/100:0.0020772810)99.9/100:0.0011610983,((Pelusios_bechuanicus:0.0025685080,Pelusios_subniger:0.0023444413)100/100:0.0036563426,Pelusios_sinuatus:0.0050494466)97.2/100:0.0009188253)94.1/100:0.0005060164,(Pelusios_gabonensis:0.0042814479,Pelusios_niger:0.0057108422)79/99:0.0001397619)100/100:0.0077795470)100/100:0.0440540108)100/100:0.0291173850)100/100:0.0178125610,((((Chelodina_burrungandjii:0.0012601300,Chelodina_parkeri:0.0030411701)96/99:0.0003590932,Chelodina_expansa:0.0022445517)100/99:0.0011752074,((((Chelodina_canni:0.0005245191,(((Chelodina_gunaleni:0.0005032485,Chelodina_novaeguineae:0.0002067000)85.4/62:0.0002926673,Chelodina_reimanni:0.0001718216)96.7/62:0.0002952022,Chelodina_pritchardi:0.0009080631)72.8/99:0.0001681515)22.8/64:0.0003283586,Chelodina_mccordi:0.0008692034)99.9/100:0.0010350332,Chelodina_steindachneri:0.0015360289)99.6/100:0.0010279349,Chelodina_longicollis:0.0017700382)100/100:0.0024544532)0/85:0.0000022164,((Chelodina_colliei:0.0041205212,((((Elseya_albagula:0.0018355363,(Elseya_irwini:0.0013257849,Elseya_lavarackorum:0.0009253326)99.9/100:0.0012495567)100/100:0.0011110391,(((Elseya_branderhorsti:0.0003968661,Elseya_dentata:0.0003321505)32.3/98:0.0001817610,sp._Sth:0.0012176150)100/100:0.0037973258,Elseya_novaeguineae:0.0067586728)99.9/100:0.0016161669)100/100:0.0027169796,((Elusor_macrurus:0.0037318586,(Emydura_macquarii:0.0017883786,((Emydura_subglobosa:0.0008583629,Emydura_tanybaraga:0.0008354005)94.6/100:0.0002360826,Emydura_victoriae:0.0007153585)99.7/100:0.0008284311)100/100:0.0045586850)6/74:0.0005002344,Rheodytes_leukops:0.0041343936)96.6/100:0.0008494831)100/100:0.0027256989,(((Myuchelys_bellii:0.0014394349,Myuchelys_georgesi:0.0030043152)65.9/95:0.0000606000,Myuchelys_latisternum:0.0020787293)94.8/95:0.0007094628,Myuchelys_purvisi:0.0023225110)100/100:0.0045729680)100/100:0.0249843324)91.1/99:0.0005741481,Chelodina_oblonga:0.0042627530)100/100:0.0344811299)100/100:0.0209130463)100/100:0.0060903313,Hydromedusa_tectifera:0.0182659004)100/100:0.0138441411,((((Mesoclemmys_gibba:0.0036879333,(Mesoclemmys_nasuta:0.0026486986,Mesoclemmys_zuliae:0.0038108746)98.6/100:0.0012043348)100/100:0.0037690615,(((Phrynops_geoffroanus:0.0000027524,Phrynops_tuberosus:0.0003522357)100/100:0.0015720169,Phrynops_williamsi:0.0029222377)96.2/100:0.0006502918,Phrynops_hilarii:0.0007282292)100/100:0.0025581223)83.6/99:0.0006215349,Mesoclemmys_hogei:0.0059751214)61.4/93:0.0009619529,Ranacephala_hogei:0.0058798481)97.7/100:0.0015549389)100/100:0.0021577504,(Chelus_fimbriata:0.0038386965,Chelus_fimbriatus:0.0000010033)97.7/100:0.0077179124)99.8/100:0.0020698320,Platemys_platycephala:0.0064501874)100/100:0.0065408516);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -257805.378162
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Acanthochelys_pallidipectoris
+|
++--Acanthochelys_spixii
+|
+|                                               +--Actinemys_marmorata
+|                                            +--| (98)
+|                                            |  +--Actinemys_pallida
+|                                         +--| (73)
+|                                         |  |  +--Terrapene_carolina
+|                                         |  +--| (100)
+|                                         |     +--Terrapene_nelsoni
+|                                      +--| (85)
+|                                      |  |  +--Chrysemys_dorsalis
+|                                      |  +--| (72)
+|                                      |     |                      +--Chrysemys_picta
+|                                      |     |                   +--| (72)
+|                                      |     |                   |  |        +--Clemmys_guttata
+|                                      |     |                   |  |     +--| (78)
+|                                      |     |                   |  |     |  |  +--Glyptemys_insculpta
+|                                      |     |                   |  |     |  +--| (100)
+|                                      |     |                   |  |     |     +--Glyptemys_muhlenbergii
+|                                      |     |                   |  |  +--| (90)
+|                                      |     |                   |  |  |  |        +--Emydoidea_blandingii
+|                                      |     |                   |  |  |  |     +--| (100)
+|                                      |     |                   |  |  |  |     |  |  +--Emys_orbicularis
+|                                      |     |                   |  |  |  |     |  +--| (100)
+|                                      |     |                   |  |  |  |     |     +--Emys_trinacris
+|                                      |     |                   |  |  |  |  +--| (62)
+|                                      |     |                   |  |  |  |  |  |     +--Terrapene_coahuila
+|                                      |     |                   |  |  |  |  |  |  +--| (98)
+|                                      |     |                   |  |  |  |  |  |  |  +--Terrapene_triunguis
+|                                      |     |                   |  |  |  |  |  +--| (100)
+|                                      |     |                   |  |  |  |  |     +--Terrapene_ornata
+|                                      |     |                   |  |  |  +--| (60)
+|                                      |     |                   |  |  |     +--Emys_marmorata
+|                                      |     |                   |  +--| (71)
+|                                      |     |                   |     +--Deirochelys_reticularia
+|                                      |     |                +--| (63)
+|                                      |     |                |  +--Malaclemys_terrapin
+|                                      |     |             +--| (58)
+|                                      |     |             |  |  +--Graptemys_barbouri
+|                                      |     |             |  +--| (100)
+|                                      |     |             |     +--Graptemys_geographica
+|                                      |     |     +-------| (98)
+|                                      |     |     |       +--Trachemys_scripta
+|                                      |     |  +--| (67)
+|                                      |     |  |  |     +--Trachemys_adiutrix
+|                                      |     |  |  |  +--| (89)
+|                                      |     |  |  |  |  +--Trachemys_gaigeae
+|                                      |     |  |  +--| (100)
+|                                      |     |  |     |           +--Trachemys_callirostris
+|                                      |     |  |     |        +--| (99)
+|                                      |     |  |     |        |  +--Trachemys_venusta
+|                                      |     |  |     |     +--| (99)
+|                                      |     |  |     |     |  +--Trachemys_dorbigni
+|                                      |     |  |     |  +--| (97)
+|                                      |     |  |     |  |  |     +--Trachemys_emolli
+|                                      |     |  |     |  |  |  +--| (99)
+|                                      |     |  |     |  |  |  |  +--Trachemys_grayi
+|                                      |     |  |     |  |  +--| (72)
+|                                      |     |  |     |  |     +--Trachemys_nebulosa
+|                                      |     |  |     +--| (95)
+|                                      |     |  |        +--Trachemys_taylori
+|                                      |     +--| (70)
+|                                      |        |                    +--Graptemys_caglei
+|                                      |        |                 +--| (99)
+|                                      |        |                 |  +--Graptemys_versa
+|                                      |        |              +--| (75)
+|                                      |        |              |  |  +--Graptemys_flavimaculata
+|                                      |        |              |  +--| (100)
+|                                      |        |              |     +--Graptemys_oculifera
+|                                      |        |           +--| (81)
+|                                      |        |           |  |     +--Graptemys_ernsti
+|                                      |        |           |  |  +--| (100)
+|                                      |        |           |  |  |  |  +--Graptemys_gibbonsi
+|                                      |        |           |  |  |  +--| (100)
+|                                      |        |           |  |  |     +--Graptemys_pearlensis
+|                                      |        |           |  +--| (87)
+|                                      |        |           |     +--Graptemys_pulchra
+|                                      |        |        +--| (80)
+|                                      |        |        |  +--Graptemys_pseudogeographica
+|                                      |        |     +--| (100)
+|                                      |        |     |  |  +--Graptemys_nigrinoda
+|                                      |        |     |  +--| (87)
+|                                      |        |     |     +--Graptemys_ouachitensis
+|                                      |        |  +--| (100)
+|                                      |        |  |  +--Graptemys_sabinensis
+|                                      |        +--| (82)
+|                                      |           |                 +--Pseudemys_alabamensis
+|                                      |           |              +--| (88)
+|                                      |           |              |  +--Pseudemys_concinna
+|                                      |           |           +--| (81)
+|                                      |           |           |  |  +--Pseudemys_nelsoni
+|                                      |           |           |  +--| (76)
+|                                      |           |           |     +--Pseudemys_peninsularis
+|                                      |           |        +--| (55)
+|                                      |           |        |  |  +--Pseudemys_gorzugi
+|                                      |           |        |  +--| (100)
+|                                      |           |        |     +--Pseudemys_texana
+|                                      |           |     +--| (43)
+|                                      |           |     |  +--Pseudemys_floridana
+|                                      |           |  +--| (100)
+|                                      |           |  |  +--Pseudemys_rubriventris
+|                                      |           +--| (96)
+|                                      |              |        +--Trachemys_decorata
+|                                      |              |     +--| (100)
+|                                      |              |     |  +--Trachemys_stejnegeri
+|                                      |              |  +--| (100)
+|                                      |              |  |  +--Trachemys_terrapen
+|                                      |              +--| (100)
+|                                      |                 +--Trachemys_decussata
+|                                   +--| (100)
+|                                   |  +--Emys_blandingii
+|                                +--| (100)
+|                                |  +--Platysternon_megacephalum
+|                             +--| (100)
+|                             |  |                       +--Aldabrachelys_gigantea
+|                             |  |                    +--| (100)
+|                             |  |                    |  +--sp._voucher
+|                             |  |                 +--| (100)
+|                             |  |                 |  |     +--Astrochelys_radiata
+|                             |  |                 |  |  +--| (100)
+|                             |  |                 |  |  |  +--Astrochelys_yniphora
+|                             |  |                 |  +--| (100)
+|                             |  |                 |     |  +--Pyxis_arachnoides
+|                             |  |                 |     +--| (100)
+|                             |  |                 |        +--Pyxis_planicauda
+|                             |  |              +--| (100)
+|                             |  |              |  |              +--Chelonoidis_abingdonii
+|                             |  |              |  |           +--| (80)
+|                             |  |              |  |           |  |  +--Chelonoidis_ephippium
+|                             |  |              |  |           |  +--| (80)
+|                             |  |              |  |           |     +--Chelonoidis_hoodensis
+|                             |  |              |  |        +--| (69)
+|                             |  |              |  |        |  +--Chelonoidis_porteri
+|                             |  |              |  |     +--| (100)
+|                             |  |              |  |     |  +--Chelonoidis_chathamensis
+|                             |  |              |  |  +--| (100)
+|                             |  |              |  |  |  +--Chelonoidis_chilensis
+|                             |  |              |  +--| (100)
+|                             |  |              |     |  +--Chelonoidis_carbonarius
+|                             |  |              |     +--| (100)
+|                             |  |              |        +--Chelonoidis_denticulatus
+|                             |  |           +--| (100)
+|                             |  |           |  |  +--Centrochelys_sulcata
+|                             |  |           |  +--| (100)
+|                             |  |           |     |  +--Geochelone_elegans
+|                             |  |           |     +--| (100)
+|                             |  |           |        +--Geochelone_platynota
+|                             |  |        +--| (100)
+|                             |  |        |  |           +--Chersina_angulata
+|                             |  |        |  |        +--| (100)
+|                             |  |        |  |        |  |  +--Chersobius_boulengeri
+|                             |  |        |  |        |  +--| (100)
+|                             |  |        |  |        |     +--Chersobius_signatus
+|                             |  |        |  |     +--| (100)
+|                             |  |        |  |     |  +--Homopus_areolatus
+|                             |  |        |  |  +--| (100)
+|                             |  |        |  |  |  |     +--Psammobates_oculifer
+|                             |  |        |  |  |  |  +--| (100)
+|                             |  |        |  |  |  |  |  |  +--Psammobates_oculiferus
+|                             |  |        |  |  |  |  |  +--| (97)
+|                             |  |        |  |  |  |  |     +--Psammobates_tentorius
+|                             |  |        |  |  |  +--| (99)
+|                             |  |        |  |  |     |  +--Psammobates_pardalis
+|                             |  |        |  |  |     +--| (100)
+|                             |  |        |  |  |        +--Stigmochelys_pardalis
+|                             |  |        |  +--| (99)
+|                             |  |        |     |     +--Kinixys_belliana
+|                             |  |        |     |  +--| (100)
+|                             |  |        |     |  |  +--Kinixys_spekii
+|                             |  |        |     +--| (100)
+|                             |  |        |        |  +--Kinixys_erosa
+|                             |  |        |        +--| (100)
+|                             |  |        |           +--Kinixys_homeana
+|                             |  |     +--| (100)
+|                             |  |     |  |           +--Indotestudo_elongata
+|                             |  |     |  |        +--| (100)
+|                             |  |     |  |        |  +--Indotestudo_travancorica
+|                             |  |     |  |     +--| (100)
+|                             |  |     |  |     |  +--Indotestudo_forstenii
+|                             |  |     |  |  +--| (100)
+|                             |  |     |  |  |  +--Malacochersus_tornieri
+|                             |  |     |  +--| (100)
+|                             |  |     |     |     +--Testudo_graeca
+|                             |  |     |     |  +--| (100)
+|                             |  |     |     |  |  |  +--Testudo_kleinmanni
+|                             |  |     |     |  |  +--| (100)
+|                             |  |     |     |  |     +--Testudo_marginata
+|                             |  |     |     +--| (100)
+|                             |  |     |        |  +--Testudo_hermanni
+|                             |  |     |        +--| (100)
+|                             |  |     |           +--Testudo_horsfieldii
+|                             |  |  +--| (100)
+|                             |  |  |  |           +--Gopherus_agassizii
+|                             |  |  |  |        +--| (100)
+|                             |  |  |  |        |  +--Gopherus_morafkai
+|                             |  |  |  |     +--| (100)
+|                             |  |  |  |     |  +--Gopherus_berlandieri
+|                             |  |  |  |  +--| (100)
+|                             |  |  |  |  |  |  +--Gopherus_flavomarginatus
+|                             |  |  |  |  |  +--| (100)
+|                             |  |  |  |  |     +--Gopherus_polyphemus
+|                             |  |  |  +--| (99)
+|                             |  |  |     |  +--------Manouria_emys
+|                             |  |  |     +--| (100)
+|                             |  |  |        +--Manouria_impressa
+|                             |  +--| (100)
+|                             |     |                             +--Batagur_baska
+|                             |     |                          +--| (100)
+|                             |     |                          |  +--Batagur_kachuga
+|                             |     |                       +--| (100)
+|                             |     |                       |  +--Batagur_dhongoka
+|                             |     |                    +--| (100)
+|                             |     |                    |  |  +--Batagur_borneoensis
+|                             |     |                    |  +--| (100)
+|                             |     |                    |     +--Batagur_trivittata
+|                             |     |                 +--| (99)
+|                             |     |                 |  +--Hardella_thurjii
+|                             |     |              +--| (100)
+|                             |     |              |  |        +--Pangshura_smithii
+|                             |     |              |  |     +--| (100)
+|                             |     |              |  |     |  +--Pangshura_tentoria
+|                             |     |              |  |  +--| (100)
+|                             |     |              |  |  |  +--Pangshura_tecta
+|                             |     |              |  +--| (100)
+|                             |     |              |     +--Pangshura_sylhetensis
+|                             |     |           +--| (100)
+|                             |     |           |  |  +--Morenia_ocellata
+|                             |     |           |  +--| (100)
+|                             |     |           |     +--Morenia_petersi
+|                             |     |        +--| (100)
+|                             |     |        |  +--Geoclemys_hamiltonii
+|                             |     |     +--| (100)
+|                             |     |     |  |  +--Malayemys_subtrijuga
+|                             |     |     |  +--| (100)
+|                             |     |     |     +--Orlitia_borneensis
+|                             |     |  +--| (100)
+|                             |     |  |  |  +--Siebenrockiella_crassicollis
+|                             |     |  |  +--| (100)
+|                             |     |  |     +--Siebenrockiella_leytensis
+|                             |     +--| (100)
+|                             |        |                    +--Cyclemys_atripons
+|                             |        |                 +--| (100)
+|                             |        |                 |  |     +--Cyclemys_dentata
+|                             |        |                 |  |  +--| (87)
+|                             |        |                 |  |  |  |     +--Cyclemys_fusca
+|                             |        |                 |  |  |  |  +--| (97)
+|                             |        |                 |  |  |  |  |  +--Cyclemys_oldhamii
+|                             |        |                 |  |  |  +--| (100)
+|                             |        |                 |  |  |     +--Cyclemys_oldhami
+|                             |        |                 |  +**| (87)
+|                             |        |                 |     +--sp._fusca
+|                             |        |              +--| (96)
+|                             |        |              |  |        +--Heosemys_annandalii
+|                             |        |              |  |     +--| (100)
+|                             |        |              |  |     |  +--Heosemys_grandis
+|                             |        |              |  |  +--| (100)
+|                             |        |              |  |  |  +--Heosemys_depressa
+|                             |        |              |  +--| (100)
+|                             |        |              |     +--Heosemys_spinosa
+|                             |        |           +--| (68)
+|                             |        |           |  |  +--Sacalia_bealei
+|                             |        |           |  +--| (100)
+|                             |        |           |     +--Sacalia_quadriocellata
+|                             |        |        +--| (94)
+|                             |        |        |  |  +--Leucocephalon_yuwonoi
+|                             |        |        |  +--| (95)
+|                             |        |        |     +--Notochelys_platynota
+|                             |        |     +--| (99)
+|                             |        |     |  |  +--Melanochelys_trijuga
+|                             |        |     |  +--| (100)
+|                             |        |     |     +--Vijayachelys_silvatica
+|                             |        |  +--| (99)
+|                             |        |  |  |     +--Geoemyda_japonica
+|                             |        |  |  |  +--| (100)
+|                             |        |  |  |  |  +--Geoemyda_spengleri
+|                             |        |  |  +--| (99)
+|                             |        |  |     |     +--Mauremys_annamensis
+|                             |        |  |     |  +--| (99)
+|                             |        |  |     |  |  |  +--Mauremys_cf.
+|                             |        |  |     |  |  +--| (99)
+|                             |        |  |     |  |     +--------Mauremys_mutica
+|                             |        |  |     +--| (99)
+|                             |        |  |        |           +--Mauremys_caspica
+|                             |        |  |        |        +--| (100)
+|                             |        |  |        |        |  +--Mauremys_rivulata
+|                             |        |  |        |     +--| (100)
+|                             |        |  |        |     |  +--Mauremys_leprosa
+|                             |        |  |        |  +--| (100)
+|                             |        |  |        |  |  +--Mauremys_japonica
+|                             |        |  |        +--| (100)
+|                             |        |  |           |     +--Mauremys_nigricans
+|                             |        |  |           |  +--| (100)
+|                             |        |  |           |  |  +--Mauremys_reevesii
+|                             |        |  |           +--| (97)
+|                             |        |  |              +--Mauremys_sinensis
+|                             |        +--| (100)
+|                             |           |        +--Rhinoclemmys_annulata
+|                             |           |     +--| (100)
+|                             |           |     |  +--Rhinoclemmys_pulcherrima
+|                             |           |  +--| (99)
+|                             |           |  |  +--Rhinoclemmys_rubida
+|                             |           +--| (100)
+|                             |              |  +--Rhinoclemmys_areolata
+|                             |              +--| (100)
+|                             |                 |     +--Rhinoclemmys_diademata
+|                             |                 |  +--| (100)
+|                             |                 |  |  +--Rhinoclemmys_punctularia
+|                             |                 +--| (100)
+|                             |                    |  +--Rhinoclemmys_funerea
+|                             |                    +--| (67)
+|                             |                       +--Rhinoclemmys_melanosterna
+|                          +--| (100)
+|                          |  |              +--Caretta_caretta
+|                          |  |           +--| (100)
+|                          |  |           |  +--Lepidochelys_olivacea
+|                          |  |        +--| (100)
+|                          |  |        |  +--Eretmochelys_imbricata
+|                          |  |     +--| (100)
+|                          |  |     |  +--Chelonia_mydas
+|                          |  |  +--| (100)
+|                          |  |  |  +---Dermochelys_coriacea
+|                          |  +--| (100)
+|                          |     |            +--Chelydra_acutirostris
+|                          |     |         +--| (100)
+|                          |     |         |  +--Chelydra_rossignonii
+|                          |     |      +--| (100)
+|                          |     |      |  +--Chelydra_serpentina
+|                          |     |  +---| (100)
+|                          |     |  |   +--Macrochelys_temminckii
+|                          |     +--| (100)
+|                          |        |        +--Claudius_angustatus
+|                          |        |     +--| (100)
+|                          |        |     |  |  +--Staurotypus_salvinii
+|                          |        |     |  +--| (100)
+|                          |        |     |     +--Staurotypus_triporcatus
+|                          |        |  +--| (100)
+|                          |        |  |  |                 +--Cryptochelys_acuta
+|                          |        |  |  |              +--| (100)
+|                          |        |  |  |              |  |  +--Cryptochelys_creaseri
+|                          |        |  |  |              |  +--| (100)
+|                          |        |  |  |              |     +--Kinosternon_creaseri
+|                          |        |  |  |           +--| (84)
+|                          |        |  |  |           |  |  +--Cryptochelys_herrerai
+|                          |        |  |  |           |  +--| (100)
+|                          |        |  |  |           |     +--Kinosternon_herrerai
+|                          |        |  |  |        +--| (60)
+|                          |        |  |  |        |  |  +--Kinosternon_acutum
+|                          |        |  |  |        |  +--| (48)
+|                          |        |  |  |        |     |        +--Kinosternon_chimalhuaca
+|                          |        |  |  |        |     |     +--| (74)
+|                          |        |  |  |        |     |     |  +--Kinosternon_oaxacae
+|                          |        |  |  |        |     |  +--| (87)
+|                          |        |  |  |        |     |  |  |     +--Kinosternon_hirtipes
+|                          |        |  |  |        |     |  |  |  +--| (93)
+|                          |        |  |  |        |     |  |  |  |  +--Kinosternon_sonoriense
+|                          |        |  |  |        |     |  |  +--| (57)
+|                          |        |  |  |        |     |  |     +--Kinosternon_integrum
+|                          |        |  |  |        |     +--| (53)
+|                          |        |  |  |        |        +--Kinosternon_scorpioides
+|                          |        |  |  |     +--| (71)
+|                          |        |  |  |     |  |     +--Cryptochelys_dunni
+|                          |        |  |  |     |  |  +--| (100)
+|                          |        |  |  |     |  |  |  +--Kinosternon_dunni
+|                          |        |  |  |     |  +--| (100)
+|                          |        |  |  |     |     |  +--Cryptochelys_leucostomum
+|                          |        |  |  |     |     +--| (100)
+|                          |        |  |  |     |        +--Kinosternon_leucostomum
+|                          |        |  |  |  +--| (100)
+|                          |        |  |  |  |  |           +--Kinosternon_arizonense
+|                          |        |  |  |  |  |        +--| (100)
+|                          |        |  |  |  |  |        |  +--Kinosternon_flavescens
+|                          |        |  |  |  |  |     +--| (84)
+|                          |        |  |  |  |  |     |  +--Kinosternon_durangoense
+|                          |        |  |  |  |  |  +--| (98)
+|                          |        |  |  |  |  |  |  +--Kinosternon_stejnegeri
+|                          |        |  |  |  |  +--| (93)
+|                          |        |  |  |  |     |  +--Kinosternon_baurii
+|                          |        |  |  |  |     +--| (100)
+|                          |        |  |  |  |        +--Kinosternon_subrubrum
+|                          |        |  |  +--| (100)
+|                          |        |  |     |     +--Sternotherus_carinatus
+|                          |        |  |     |  +--| (100)
+|                          |        |  |     |  |  +--Sternotherus_odoratus
+|                          |        |  |     +--| (100)
+|                          |        |  |        |  +--Sternotherus_depressus
+|                          |        |  |        +--| (100)
+|                          |        |  |           +--Sternotherus_minor
+|                          |        +--| (100)
+|                          |           +-------Dermatemys_mawii
+|                  +-------| (100)
+|                  |       |                                   +--Amyda_cartilaginea
+|                  |       |                                +--| (100)
+|                  |       |                                |  |     +--Nilssonia_formosa
+|                  |       |                                |  |  +--| (100)
+|                  |       |                                |  |  |  +--Nilssonia_hurum
+|                  |       |                                |  +--| (100)
+|                  |       |                                |     +--Nilssonia_gangetica
+|                  |       |                             +--| (100)
+|                  |       |                             |  +--Dogania_subplana
+|                  |       |                          +--| (100)
+|                  |       |                          |  +--Palea_steindachneri
+|                  |       |                       +--| (100)
+|                  |       |                       |  +--Pelodiscus_sinensis
+|                  |       |                    +--| (100)
+|                  |       |                    |  |     +--Apalone_ferox
+|                  |       |                    |  |  +--| (100)
+|                  |       |                    |  |  |  +--Apalone_spinifera
+|                  |       |                    |  +--| (100)
+|                  |       |                    |     +--Apalone_mutica
+|                  |       |                +---| (100)
+|                  |       |                |   |           +--Chitra_chitra
+|                  |       |                |   |        +--| (100)
+|                  |       |                |   |        |  +--Chitra_vandijki
+|                  |       |                |   |     +--| (100)
+|                  |       |                |   |     |  +--Chitra_indica
+|                  |       |                |   |  +--| (100)
+|                  |       |                |   |  |  |  +--Pelochelys_bibroni
+|                  |       |                |   |  |  +--| (100)
+|                  |       |                |   |  |     +--Pelochelys_cantorii
+|                  |       |                |   +--| (100)
+|                  |       |                |      +--Trionyx_triunguis
+|                  |       |    +-----------| (100)
+|                  |       |    |           |                  +--Cyclanorbis_senegalensis
+|                  |       |    |           |               +--| (100)
+|                  |       |    |           |               |  |  +--Cycloderma_aubryi
+|                  |       |    |           |               |  +--| (100)
+|                  |       |    |           |               |     +--Cycloderma_frenatum
+|                  |       |    |           +---------------| (100)
+|                  |       |    |                           |  +--Lissemys_punctata
+|                  |       |    |                           +--| (100)
+|                  |       |    |                              +--Lissemys_scutata
+|                  |       +----| (100)
+|                  |            +--------------------------Carettochelys_insculpta
+|              +---| (100)
+|              |   |                 +-----------Erymnochelys_madagascariensis
+|              |   |              +--| (96)
+|              |   |              |  |                   +--Podocnemis_erythrocephala
+|              |   |              |  |                +--| (100)
+|              |   |              |  |                |  +--Podocnemis_sextuberculata
+|              |   |              |  |             +--| (100)
+|              |   |              |  |             |  +--Podocnemis_unifilis
+|              |   |              |  |          +--| (100)
+|              |   |              |  |          |  +--Podocnemis_expansa
+|              |   |              |  +----------| (100)
+|              |   |              |             +---Podocnemis_vogli
+|              |   |       +------| (100)
+|              |   |       |      +--------Peltocephalus_dumerilianus
+|              |   +-------| (100)
+|              |           |           +--Pelomedusa_subrufa
+|              |           +-----------| (100)
+|              |                       |                 +--Pelusios_adansonii
+|              |                       |              +--| (100)
+|              |                       |              |  +--Pelusios_broadleyi
+|              |                       |           +--| (100)
+|              |                       |           |  |  +--Pelusios_castaneus
+|              |                       |           |  +--| (100)
+|              |                       |           |     +--Pelusios_chapini
+|              |                       |        +--| (99)
+|              |                       |        |  +--Pelusios_castanoides
+|              |                       |     +--| (100)
+|              |                       |     |  |  +--Pelusios_carinatus
+|              |                       |     |  +--| (100)
+|              |                       |     |     +--Pelusios_rhodesianus
+|              |                       |  +--| (100)
+|              |                       |  |  |     +--Pelusios_bechuanicus
+|              |                       |  |  |  +--| (100)
+|              |                       |  |  |  |  +--Pelusios_subniger
+|              |                       |  |  +--| (100)
+|              |                       |  |     +--Pelusios_sinuatus
+|              |                       +--| (100)
+|              |                          |  +--Pelusios_gabonensis
+|              |                          +--| (99)
+|              |                             +--Pelusios_niger
+|           +--| (100)
+|           |  |             +--Chelodina_burrungandjii
+|           |  |          +--| (99)
+|           |  |          |  +--Chelodina_parkeri
+|           |  |       +--| (99)
+|           |  |       |  +--Chelodina_expansa
+|           |  |    +--| (85)
+|           |  |    |  |           +--Chelodina_canni
+|           |  |    |  |        +--| (64)
+|           |  |    |  |        |  |        +--Chelodina_gunaleni
+|           |  |    |  |        |  |     +--| (62)
+|           |  |    |  |        |  |     |  +--Chelodina_novaeguineae
+|           |  |    |  |        |  |  +--| (62)
+|           |  |    |  |        |  |  |  +--Chelodina_reimanni
+|           |  |    |  |        |  +--| (99)
+|           |  |    |  |        |     +--Chelodina_pritchardi
+|           |  |    |  |     +--| (100)
+|           |  |    |  |     |  +--Chelodina_mccordi
+|           |  |    |  |  +--| (100)
+|           |  |    |  |  |  +--Chelodina_steindachneri
+|           |  |    |  +--| (100)
+|           |  |    |     +--Chelodina_longicollis
+|           |  +----| (100)
+|           |       |           +--Chelodina_colliei
+|           |       |        +--| (99)
+|           |       |        |  |              +--Elseya_albagula
+|           |       |        |  |           +--| (100)
+|           |       |        |  |           |  |  +--Elseya_irwini
+|           |       |        |  |           |  +--| (100)
+|           |       |        |  |           |     +--Elseya_lavarackorum
+|           |       |        |  |        +--| (100)
+|           |       |        |  |        |  |        +--Elseya_branderhorsti
+|           |       |        |  |        |  |     +--| (98)
+|           |       |        |  |        |  |     |  +--Elseya_dentata
+|           |       |        |  |        |  |  +--| (100)
+|           |       |        |  |        |  |  |  +--sp._Sth
+|           |       |        |  |        |  +--| (100)
+|           |       |        |  |        |     +--Elseya_novaeguineae
+|           |       |        |  |     +--| (100)
+|           |       |        |  |     |  |     +--Elusor_macrurus
+|           |       |        |  |     |  |  +--| (74)
+|           |       |        |  |     |  |  |  |  +--Emydura_macquarii
+|           |       |        |  |     |  |  |  +--| (100)
+|           |       |        |  |     |  |  |     |     +--Emydura_subglobosa
+|           |       |        |  |     |  |  |     |  +--| (100)
+|           |       |        |  |     |  |  |     |  |  +--Emydura_tanybaraga
+|           |       |        |  |     |  |  |     +--| (100)
+|           |       |        |  |     |  |  |        +--Emydura_victoriae
+|           |       |        |  |     |  +--| (100)
+|           |       |        |  |     |     +--Rheodytes_leukops
+|           |       |        |  +-----| (100)
+|           |       |        |        |        +--Myuchelys_bellii
+|           |       |        |        |     +--| (95)
+|           |       |        |        |     |  +--Myuchelys_georgesi
+|           |       |        |        |  +--| (95)
+|           |       |        |        |  |  +--Myuchelys_latisternum
+|           |       |        |        +--| (100)
+|           |       |        |           +--Myuchelys_purvisi
+|           |       +--------| (100)
+|           |                +--Chelodina_oblonga
+|        +--| (100)
+|        |  +----Hydromedusa_tectifera
+|     +--| (100)
+|     |  |           +--Mesoclemmys_gibba
+|     |  |        +--| (100)
+|     |  |        |  |  +--Mesoclemmys_nasuta
+|     |  |        |  +--| (100)
+|     |  |        |     +--Mesoclemmys_zuliae
+|     |  |     +--| (99)
+|     |  |     |  |        +--Phrynops_geoffroanus
+|     |  |     |  |     +--| (100)
+|     |  |     |  |     |  +--Phrynops_tuberosus
+|     |  |     |  |  +--| (100)
+|     |  |     |  |  |  +--Phrynops_williamsi
+|     |  |     |  +--| (100)
+|     |  |     |     +--Phrynops_hilarii
+|     |  |  +--| (93)
+|     |  |  |  +--Mesoclemmys_hogei
+|     |  +--| (100)
+|     |     +--Ranacephala_hogei
+|  +--| (100)
+|  |  |  +--Chelus_fimbriata
+|  |  +--| (100)
+|  |     +--Chelus_fimbriatus
++--| (100)
+   +--Platemys_platycephala
+
+
+Consensus tree in newick format: 
+
+(Acanthochelys_pallidipectoris:0.0008172277,Acanthochelys_spixii:0.0023298112,((((((((((((((Actinemys_marmorata:0.0028974535,Actinemys_pallida:0.0016647350)98:0.0015536891,(Terrapene_carolina:0.0015164146,Terrapene_nelsoni:0.0038612855)100:0.0015788665)73:0.0011316216,(Chrysemys_dorsalis:0.0031730011,((((((Chrysemys_picta:0.0036213804,(((Clemmys_guttata:0.0058206136,(Glyptemys_insculpta:0.0030515378,Glyptemys_muhlenbergii:0.0028113991)100:0.0010910173)78:0.0003060612,(((Emydoidea_blandingii:0.0014377904,(Emys_orbicularis:0.0002511361,Emys_trinacris:0.0010460125)100:0.0022772903)100:0.0008796410,((Terrapene_coahuila:0.0016390097,Terrapene_triunguis:0.0015879194)98:0.0006003832,Terrapene_ornata:0.0022176029)100:0.0014418592)62:0.0002571996,Emys_marmorata:0.0022939759)60:0.0001365844)90:0.0069781188,Deirochelys_reticularia:0.0066698293)71:0.0009650015)72:0.0010725148,Malaclemys_terrapin:0.0037172185)63:0.0005572685,(Graptemys_barbouri:0.0031199299,Graptemys_geographica:0.0019386098)100:0.0016846977)58:0.0000210540,Trachemys_scripta:0.0026098127)98:0.0318695288,((Trachemys_adiutrix:0.0008771338,Trachemys_gaigeae:0.0014131920)89:0.0004673723,((((Trachemys_callirostris:0.0017164393,Trachemys_venusta:0.0006672586)99:0.0003177409,Trachemys_dorbigni:0.0014965371)99:0.0007132193,((Trachemys_emolli:0.0001296985,Trachemys_grayi:0.0005978391)99:0.0005207703,Trachemys_nebulosa:0.0030478333)72:0.0002963095)97:0.0007267525,Trachemys_taylori:0.0007639179)95:0.0005487447)100:0.0011499081)67:0.0000704496,(((((((Graptemys_caglei:0.0015726011,Graptemys_versa:0.0006732942)99:0.0002583685,(Graptemys_flavimaculata:0.0006789472,Graptemys_oculifera:0.0006338726)100:0.0007639773)75:0.0003585283,((Graptemys_ernsti:0.0006850554,(Graptemys_gibbonsi:0.0004034834,Graptemys_pearlensis:0.0007246896)100:0.0001719612)100:0.0003702852,Graptemys_pulchra:0.0003215407)87:0.0006080147)81:0.0001580727,Graptemys_pseudogeographica:0.0005405626)80:0.0001600507,(Graptemys_nigrinoda:0.0011299838,Graptemys_ouachitensis:0.0006373764)87:0.0002045854)100:0.0018869248,Graptemys_sabinensis:0.0010586286)100:0.0013421286,((((((Pseudemys_alabamensis:0.0009265334,Pseudemys_concinna:0.0012551071)88:0.0000029479,(Pseudemys_nelsoni:0.0006987368,Pseudemys_peninsularis:0.0021863264)76:0.0001746871)81:0.0008505622,(Pseudemys_gorzugi:0.0004069253,Pseudemys_texana:0.0009175142)100:0.0012016306)55:0.0003310436,Pseudemys_floridana:0.0013756276)43:0.0000025574,Pseudemys_rubriventris:0.0009631029)100:0.0018572340,(((Trachemys_decorata:0.0004127721,Trachemys_stejnegeri:0.0005322637)100:0.0008806195,Trachemys_terrapen:0.0011268126)100:0.0003595475,Trachemys_decussata:0.0003787160)100:0.0026857865)96:0.0005877990)82:0.0002597367)70:0.0018269033)72:0.0058049851)85:0.0013024169,Emys_blandingii:0.0000025295)100:0.0046697678,Platysternon_megacephalum:0.0110648115)100:0.0012184889,((((((((Aldabrachelys_gigantea:0.0002770982,sp._voucher:0.0086233969)100:0.0032101444,((Astrochelys_radiata:0.0024165597,Astrochelys_yniphora:0.0042194230)100:0.0015886702,(Pyxis_arachnoides:0.0027255309,Pyxis_planicauda:0.0042072380)100:0.0058997444)100:0.0002135378)100:0.0017463609,(((((Chelonoidis_abingdonii:0.0003090215,(Chelonoidis_ephippium:0.0000025452,Chelonoidis_hoodensis:0.0002055561)80:0.0001009984)80:0.0001027655,Chelonoidis_porteri:0.0002054470)69:0.0000025452,Chelonoidis_chathamensis:0.0000025295)100:0.0036722177,Chelonoidis_chilensis:0.0045070819)100:0.0006293020,(Chelonoidis_carbonarius:0.0035240343,Chelonoidis_denticulatus:0.0029656542)100:0.0005246278)100:0.0014321080)100:0.0007759793,(Centrochelys_sulcata:0.0048164830,(Geochelone_elegans:0.0015359908,Geochelone_platynota:0.0009637066)100:0.0038075658)100:0.0023382194)100:0.0002439980,((((Chersina_angulata:0.0099140151,(Chersobius_boulengeri:0.0017828102,Chersobius_signatus:0.0020262418)100:0.0022861484)100:0.0011278963,Homopus_areolatus:0.0086928435)100:0.0006324324,((Psammobates_oculifer:0.0035938479,(Psammobates_oculiferus:0.0043917797,Psammobates_tentorius:0.0044756275)97:0.0011289822)100:0.0037925909,(Psammobates_pardalis:0.0002265003,Stigmochelys_pardalis:0.0006855718)100:0.0067946214)99:0.0003722675)100:0.0004922107,((Kinixys_belliana:0.0005225763,Kinixys_spekii:0.0002503903)100:0.0033930976,(Kinixys_erosa:0.0004270800,Kinixys_homeana:0.0005293074)100:0.0026982610)100:0.0066082697)99:0.0001257123)100:0.0047583291,((((Indotestudo_elongata:0.0018370611,Indotestudo_travancorica:0.0014675550)100:0.0022181382,Indotestudo_forstenii:0.0038811416)100:0.0024909967,Malacochersus_tornieri:0.0088561460)100:0.0022626367,((Testudo_graeca:0.0037713501,(Testudo_kleinmanni:0.0084980950,Testudo_marginata:0.0031885374)100:0.0011227328)100:0.0038136332,(Testudo_hermanni:0.0043675347,Testudo_horsfieldii:0.0044671991)100:0.0003083022)100:0.0035398794)100:0.0029962028)100:0.0036055596,((((Gopherus_agassizii:0.0015253478,Gopherus_morafkai:0.0017170985)100:0.0010101039,Gopherus_berlandieri:0.0021888073)100:0.0031347646,(Gopherus_flavomarginatus:0.0011247817,Gopherus_polyphemus:0.0036318199)100:0.0023734426)100:0.0057331079,(Manouria_emys:0.0337459088,Manouria_impressa:0.0076964378)100:0.0036846727)99:0.0005973503)100:0.0057205663,((((((((((Batagur_baska:0.0010861138,Batagur_kachuga:0.0023336868)100:0.0006259079,Batagur_dhongoka:0.0024436118)100:0.0004253218,(Batagur_borneoensis:0.0020273239,Batagur_trivittata:0.0017891516)100:0.0007803244)100:0.0001223231,Hardella_thurjii:0.0040338621)99:0.0004376645,(((Pangshura_smithii:0.0011619491,Pangshura_tentoria:0.0014746409)100:0.0013128087,Pangshura_tecta:0.0016397527)100:0.0008071071,Pangshura_sylhetensis:0.0022183242)100:0.0022436375)100:0.0033568895,(Morenia_ocellata:0.0051299979,Morenia_petersi:0.0028868600)100:0.0055059950)100:0.0012885106,Geoclemys_hamiltonii:0.0084844035)100:0.0027828802,(Malayemys_subtrijuga:0.0118287761,Orlitia_borneensis:0.0038917750)100:0.0043759587)100:0.0049859541,(Siebenrockiella_crassicollis:0.0081130488,Siebenrockiella_leytensis:0.0066310711)100:0.0061772634)100:0.0019755906,(((((((Cyclemys_atripons:0.0017541253,((Cyclemys_dentata:0.0017087856,((Cyclemys_fusca:0.0020990617,Cyclemys_oldhamii:0.0017915369)97:0.0005608825,Cyclemys_oldhami:0.0006626390)100:0.0008566536)87:0.0005920884,sp._fusca:0.0000025295)87:0.0000010688)100:0.0033571850,(((Heosemys_annandalii:0.0028184341,Heosemys_grandis:0.0024252563)100:0.0009514439,Heosemys_depressa:0.0040400234)100:0.0026303011,Heosemys_spinosa:0.0073488708)100:0.0014082412)96:0.0005486213,(Sacalia_bealei:0.0008706192,Sacalia_quadriocellata:0.0021902443)100:0.0054112964)68:0.0002570396,(Leucocephalon_yuwonoi:0.0081792221,Notochelys_platynota:0.0091169087)95:0.0011546952)94:0.0004242642,(Melanochelys_trijuga:0.0063151392,Vijayachelys_silvatica:0.0073989675)100:0.0025821064)99:0.0017247100,((Geoemyda_japonica:0.0024195331,Geoemyda_spengleri:0.0034930015)100:0.0031307302,((Mauremys_annamensis:0.0025964914,(Mauremys_cf.:0.0000025295,Mauremys_mutica:0.0325550556)99:0.0119000166)99:0.0028226216,((((Mauremys_caspica:0.0017570509,Mauremys_rivulata:0.0019417336)100:0.0020170510,Mauremys_leprosa:0.0026753533)100:0.0017920878,Mauremys_japonica:0.0020650152)100:0.0008659267,((Mauremys_nigricans:0.0013625998,Mauremys_reevesii:0.0013818774)100:0.0020707798,Mauremys_sinensis:0.0039765505)97:0.0003438756)100:0.0037758667)99:0.0013003745)99:0.0002491355)99:0.0002343742,(((Rhinoclemmys_annulata:0.0011587832,Rhinoclemmys_pulcherrima:0.0027599987)100:0.0006306875,Rhinoclemmys_rubida:0.0045408364)99:0.0003012337,(Rhinoclemmys_areolata:0.0026238359,((Rhinoclemmys_diademata:0.0005517852,Rhinoclemmys_punctularia:0.0007485426)100:0.0008292084,(Rhinoclemmys_funerea:0.0011992828,Rhinoclemmys_melanosterna:0.0007009993)67:0.0000027555)100:0.0009049433)100:0.0008270799)100:0.0140599506)100:0.0007973345)100:0.0021910658)100:0.0108420560)100:0.0052491892,(((((Caretta_caretta:0.0020397362,Lepidochelys_olivacea:0.0036567208)100:0.0005294934,Eretmochelys_imbricata:0.0039348334)100:0.0042455061,Chelonia_mydas:0.0057503967)100:0.0067936595,Dermochelys_coriacea:0.0176382326)100:0.0121599109,((((Chelydra_acutirostris:0.0010429160,Chelydra_rossignonii:0.0009948099)100:0.0004502117,Chelydra_serpentina:0.0013196091)100:0.0033622475,Macrochelys_temminckii:0.0052003820)100:0.0150675437,(((Claudius_angustatus:0.0057416041,(Staurotypus_salvinii:0.0013579878,Staurotypus_triporcatus:0.0008178389)100:0.0034940829)100:0.0134044479,((((((Cryptochelys_acuta:0.0000021669,(Cryptochelys_creaseri:0.0004879868,Kinosternon_creaseri:0.0001937772)100:0.0003426090)100:0.0023107816,(Cryptochelys_herrerai:0.0014391977,Kinosternon_herrerai:0.0000025295)100:0.0014592387)84:0.0005487329,(Kinosternon_acutum:0.0016917773,(((Kinosternon_chimalhuaca:0.0016732759,Kinosternon_oaxacae:0.0008228392)74:0.0001092668,((Kinosternon_hirtipes:0.0013347367,Kinosternon_sonoriense:0.0013439634)93:0.0002220852,Kinosternon_integrum:0.0018967627)57:0.0000021669)87:0.0001089086,Kinosternon_scorpioides:0.0013656342)53:0.0012960388)48:0.0000023667)60:0.0007843374,((Cryptochelys_dunni:0.0000022688,Kinosternon_dunni:0.0000021669)100:0.0028935024,(Cryptochelys_leucostomum:0.0000027555,Kinosternon_leucostomum:0.0000025295)100:0.0018902967)100:0.0012401544)71:0.0020693017,((((Kinosternon_arizonense:0.0001410568,Kinosternon_flavescens:0.0003041225)100:0.0010637196,Kinosternon_durangoense:0.0022033225)84:0.0000025010,Kinosternon_stejnegeri:0.0020830936)98:0.0010807810,(Kinosternon_baurii:0.0048048394,Kinosternon_subrubrum:0.0014187026)100:0.0065136194)93:0.0029796476)100:0.0017011941,((Sternotherus_carinatus:0.0038072701,Sternotherus_odoratus:0.0023704207)100:0.0012151933,(Sternotherus_depressus:0.0046140447,Sternotherus_minor:0.0023339179)100:0.0011010304)100:0.0036655810)100:0.0062115574)100:0.0131656792,Dermatemys_mawii:0.0314620170)100:0.0138943018)100:0.0034488221)100:0.0030089894)100:0.0143131428,((((((((Amyda_cartilaginea:0.0042072353,((Nilssonia_formosa:0.0028486574,Nilssonia_hurum:0.0028923231)100:0.0003497723,Nilssonia_gangetica:0.0050637233)100:0.0020446954)100:0.0042924667,Dogania_subplana:0.0121212190)100:0.0028677922,Palea_steindachneri:0.0087202119)100:0.0016005116,Pelodiscus_sinensis:0.0136355962)100:0.0043420511,((Apalone_ferox:0.0103256088,Apalone_spinifera:0.0030658880)100:0.0023102842,Apalone_mutica:0.0040775957)100:0.0119874918)100:0.0022971758,((((Chitra_chitra:0.0017448487,Chitra_vandijki:0.0009406472)100:0.0002607605,Chitra_indica:0.0015061290)100:0.0058680880,(Pelochelys_bibroni:0.0009933063,Pelochelys_cantorii:0.0016649392)100:0.0051075766)100:0.0037646539,Trionyx_triunguis:0.0097777879)100:0.0036775419)100:0.0174491540,((Cyclanorbis_senegalensis:0.0063724838,(Cycloderma_aubryi:0.0041865812,Cycloderma_frenatum:0.0050401727)100:0.0012320995)100:0.0006576135,(Lissemys_punctata:0.0040697338,Lissemys_scutata:0.0049913010)100:0.0054341218)100:0.0603996990)100:0.0468706462,Carettochelys_insculpta:0.0993795326)100:0.0187974781)100:0.0313271011,(((Erymnochelys_madagascariensis:0.0452587988,((((Podocnemis_erythrocephala:0.0041455109,Podocnemis_sextuberculata:0.0053775166)100:0.0013510649,Podocnemis_unifilis:0.0067136185)100:0.0005561748,Podocnemis_expansa:0.0081890394)100:0.0042457660,Podocnemis_vogli:0.0156710333)100:0.0414136899)96:0.0022631300,Peltocephalus_dumerilianus:0.0352851398)100:0.0266685740,(Pelomedusa_subrufa:0.0126274938,((((((Pelusios_adansonii:0.0133529744,Pelusios_broadleyi:0.0051757230)100:0.0010892128,(Pelusios_castaneus:0.0036772931,Pelusios_chapini:0.0016333532)100:0.0008485662)100:0.0024329444,Pelusios_castanoides:0.0044802590)99:0.0004194874,(Pelusios_carinatus:0.0025245657,Pelusios_rhodesianus:0.0017837876)100:0.0020776115)100:0.0011612905,((Pelusios_bechuanicus:0.0025675819,Pelusios_subniger:0.0023435149)100:0.0036552542,Pelusios_sinuatus:0.0050486714)100:0.0009186451)100:0.0005054267,(Pelusios_gabonensis:0.0042809801,Pelusios_niger:0.0057100101)99:0.0001388784)100:0.0077778605)100:0.0440485073)100:0.0291137854)100:0.0178097359,((((Chelodina_burrungandjii:0.0012600850,Chelodina_parkeri:0.0030407164)99:0.0003589559,Chelodina_expansa:0.0022440194)99:0.0011748146,((((Chelodina_canni:0.0005233735,(((Chelodina_gunaleni:0.0005026462,Chelodina_novaeguineae:0.0002069043)62:0.0002924996,Chelodina_reimanni:0.0001709247)62:0.0002951244,Chelodina_pritchardi:0.0009083239)99:0.0001682807)64:0.0003275178,Chelodina_mccordi:0.0008686015)100:0.0010358475,Chelodina_steindachneri:0.0015355479)100:0.0010268698,Chelodina_longicollis:0.0017693129)100:0.0024539112)85:0.0000022711,((Chelodina_colliei:0.0041200106,((((Elseya_albagula:0.0018360011,(Elseya_irwini:0.0013257106,Elseya_lavarackorum:0.0009247601)100:0.0012494550)100:0.0011111525,(((Elseya_branderhorsti:0.0003968512,Elseya_dentata:0.0003323127)98:0.0001817928,sp._Sth:0.0012175723)100:0.0037963995,Elseya_novaeguineae:0.0067570328)100:0.0016158502)100:0.0027156928,((Elusor_macrurus:0.0037303266,(Emydura_macquarii:0.0017877847,((Emydura_subglobosa:0.0008578153,Emydura_tanybaraga:0.0008348678)100:0.0002363775,Emydura_victoriae:0.0007151272)100:0.0008279061)100:0.0045576239)74:0.0004997549,Rheodytes_leukops:0.0041338059)100:0.0008491249)100:0.0027245364,(((Myuchelys_bellii:0.0014393222,Myuchelys_georgesi:0.0030038428)95:0.0000609094,Myuchelys_latisternum:0.0020781818)95:0.0007091018,Myuchelys_purvisi:0.0023216824)100:0.0045723718)100:0.0249813626)99:0.0005733368,Chelodina_oblonga:0.0042622822)100:0.0344766231)100:0.0209104694)100:0.0060898933,Hydromedusa_tectifera:0.0182632458)100:0.0138417069,((((Mesoclemmys_gibba:0.0036863825,(Mesoclemmys_nasuta:0.0026468749,Mesoclemmys_zuliae:0.0038091404)100:0.0012031361)100:0.0037689339,(((Phrynops_geoffroanus:0.0000023646,Phrynops_tuberosus:0.0003513415)100:0.0015715055,Phrynops_williamsi:0.0029217828)100:0.0006491459,Phrynops_hilarii:0.0007271192)100:0.0025563986)99:0.0006240122,Mesoclemmys_hogei:0.0059734857)93:0.0009580357,Ranacephala_hogei:0.0058791497)100:0.0015555013)100:0.0021574281,(Chelus_fimbriata:0.0038414662,Chelus_fimbriatus:0.0000025295)100:0.0077135061)100:0.0020699337,Platemys_platycephala:0.0064491012)100:0.0065389819);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t C:\Users\Rushe\Desktop\capstone 2025\FASconCAT\cleaned_supermatrix.fas.treefile -m "GTR{0.894667,3.09982,0.672808,0.973863,3.55699}+F{0.303484,0.206494,0.216164,0.273858}+I{0.173352}+G4{1.60663}" --length 20024
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s C:\Users\Rushe\Desktop\capstone 2025\FASconCAT\cleaned_supermatrix.fas --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s C:\Users\Rushe\Desktop\capstone 2025\FASconCAT\cleaned_supermatrix.fas --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Mar 27 09:53:14 2025
+Total CPU time used: 1275.984375 seconds (0h:21m:15s)
+Total wall-clock time used: 1993.323469 seconds (0h:33m:13s)
+
