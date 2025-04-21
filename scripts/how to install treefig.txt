@@ -1,0 +1,23 @@
+# how to install treefig 
+# here is the website https://tree.bio.ed.ac.uk/software/figtree/
+# here is the GitHub to Treefig https://github.com/rambaut/figtree/releases
+
+# make sure to read the read the tutorial to properly down the Figtree 
+
+# how to down load 
+
+# where I have mine stored 
+
+# my Figtree is in this directory 
+cd C:\Users\Rushe\figtree
+
+#  I use this command to launch my Figtree
+java -jar C:\Users\Rushe\figtree\dist\figtree.jar
+
+# I use this command if I get issues with my java version 
+java -version
+
+# once the Figtree opens I just open the file called "cleaned_supermatrix.fas.treefile"
+# it has to say .treefile in order to open in figtree 
+# I learned that the best option to save your phylogenetic tree is in a pdf or png
+
